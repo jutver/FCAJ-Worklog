@@ -9,23 +9,21 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Huynh An Khuong
+&emsp; **Full Name:** Nguyễn Bá Tùng Dương
 
-&emsp; **Phone Number:** 0964440342
+&emsp; **Phone Number:** 0865443323 
 
-&emsp; **Email:** huynhankhuong0511@gmail.com
+&emsp; **Email:** duong2mailegend@gmail.com
 
-&emsp; **University:** FPTU Ho Chi Minh Campus
+&emsp; **University:** FPT University HCMC
 
-&emsp; **Major:** Information Technology
-
-&emsp; **Class** AWS082025
+&emsp; **Major:** Artificial Intelligence
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Position:** FCJA Cloud Intern
+&emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 08/09/2025 to 12/12/2025
+&emsp; **Internship Duration:** From 12/01/2026
 
 ![Your profile picture](/images/NguyenBaTungDuong.jpg)
 

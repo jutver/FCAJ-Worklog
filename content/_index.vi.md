@@ -7,25 +7,23 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Huỳnh An Khương
+&emsp; **Họ và tên:** Nguyễn Bá Tùng Dương
 
-&emsp; **Số điện thoại:** 0964440342
+&emsp; **Số điện thoại:** 0865443323
 
-&emsp; **Email:** huynhankhuong0511@gmail.com
+&emsp; **Email:** duong2mailegend@gmail.com
 
-&emsp; **Trường:** Trường Đại học FPT Thành Phố Hồ Chí Minh
+&emsp; **Trường:** Đại học FPT HCM
 
-&emsp; **Ngành:** Công nghệ thông tin
-
-&emsp; **Lớp:** AWS082025
+&emsp; **Ngành:** Trí tuệ Nhân tạo
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 08/09/2025 đến ngày 12/12/2025
+&emsp; **Thời gian thực tập:** Từ ngày 12/01/2026
 
-![Your profile picture](/images/KhuongAnhThe.jpg)
+![Your profile picture](/images/NguyenBaTungDuong.jpg)
 
 
 
