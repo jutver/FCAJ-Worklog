@@ -9,9 +9,9 @@ pre: " <b> 3. </b> "
 During my internship, I participated in seven events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
 
 ### [Event 1](3.1-Event1/)  
-&emsp;**Event Name:** Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders: Gen AI and Data track   
+&emsp;**Event Name:** “AWS RE:INVENT 2025 RECAP (VIETNAM)   
 
-&emsp;**Date & Time:** 08:30, September 18th, 2025  
+&emsp;**Date & Time:** 09:00, January 27th, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -20,9 +20,9 @@ During my internship, I participated in seven events. Each one was a memorable e
 ---
 
 ### [Event 2](3.2-Event2/)  
-&emsp;**Event Name:** AI-Driven Development Life Cycle: Reimagining Software Engineering  
+&emsp;**Event Name:** AI Agents, Prompt Engineering, and AIoT Projects on AWS  
 
-&emsp;**Date & Time:** 09:00, October 3rd, 2025  
+&emsp;**Date & Time:** 09:00, March 14, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -31,9 +31,9 @@ During my internship, I participated in seven events. Each one was a memorable e
 ---
 
 ### [Event 3](3.3-Event3/)  
-&emsp;**Event Name:** AWS Cloud Mastery Series #1 - AI/ML/GenAI on AWS
+&emsp;**Event Name:** Future
 
-&emsp;**Date & Time:** 08:30, November 15th, 2025  
+&emsp;**Date & Time:** 09:00, April 4, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -42,9 +42,9 @@ During my internship, I participated in seven events. Each one was a memorable e
 ---
 
 ### [Event 4](3.4-Event4/)  
-&emsp;**Event Name:** AWS Cloud Mastery Series #2 - DevOps on AWS  
+&emsp;**Event Name:** Future  
 
-&emsp;**Date & Time:** 08:30, November 17th, 2025  
+&emsp;**Date & Time:** Unknown  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -53,9 +53,9 @@ During my internship, I participated in seven events. Each one was a memorable e
 ---
 
 ### [Event 5](3.5-Event5/)  
-&emsp;**Event Name:** Secure Your Applications: AWS Perimeter Protection Workshop  
+&emsp;**Event Name:** Future  
 
-&emsp;**Date & Time:** 08:30, November 19th, 2025  
+&emsp;**Date & Time:** Unknown  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 

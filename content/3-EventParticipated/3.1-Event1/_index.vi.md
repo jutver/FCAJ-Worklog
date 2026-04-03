@@ -6,86 +6,77 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-## Báo cáo sự kiện: “Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders: Gen AI and Data track”
+# Báo cáo Tổng kết: “AWS RE:INVENT 2025 RECAP (VIỆT NAM)”
 
-### Mục tiêu sự kiện
+### Chi tiết Sự kiện
+- **Thời gian:** 27/01/2026
+- **Địa điểm:** Văn phòng AWS Việt Nam (Tầng 26 & 36), TP. Hồ Chí Minh
+- **Vai trò Tham dự:** Người tham dự (Thực tập sinh First Cloud Journey)
 
-- Sự kiện công nghệ hàng đầu Việt Nam, quy tụ doanh nghiệp, kỹ sư và lãnh đạo để khai thác đổi mới về Cloud và AI.
-- Khám phá những xu hướng mới nhất về Gen AI, công nghệ điện toán đám mây và các giải pháp số.
-- Nhận được nhiều kiến thức giá trị qua các phiên khai mạc, học hỏi từ câu chuyện thành công của khách hàng, tham gia workshop thực hành và khám phá các giải pháp tiên tiến từ chuyên gia và đối tác AWS.
+### Mục tiêu Sự kiện
+
+- Cập nhật các đợt phát hành sản phẩm lớn và tin tức từ AWS re:Invent 2025 tại Las Vegas.
+- Khám phá chuyên sâu về AI Tạo sinh (Generative AI), với trọng tâm đặc biệt vào Amazon Bedrock và Agentic AI.
+- Khám phá các cải tiến gần đây về lưu trữ dữ liệu và quản lý hạ tầng, nổi bật là S3 và SageMaker.
+- Kết nối và giao lưu với các chuyên gia công nghệ địa phương cùng các Solution Architect của AWS.
 
 ### Diễn giả
 
-- **H.E Pham Duc Long** – Vice Minister of Science and Technology
-- **H.E Marc E. Knapper** – US Ambassador to Vietnam
-- **Jaime Valles** – Vice President, General Manager Asia Pacific and Japan, AWS
-- **Jeff Johnson** – Managing Director ASEAN, AWS
-- **Dr Jens Lottner** – CEO, Techcombank
-- **Dieter Botha** – CEO, TymeX
-- **Trang Phung** – CEO & Co-Founder, U2U Network
-- **Vu Van** – CEO & Co-Founder, ELSA Corp
-- **Nguyen Hoa Binh** – Chairman, Texttech Group
-- **Taiki Dang** – Solutions Architect, AWS
-- **Jun Kai Loke** – AI/ML Specialist SA, AWS
-- **Kien Nguyen** – Solutions Architect, AWS
-- **Tamelly Lim** – Storage Specialist SA, AWS
-- **Binh Tran** – Senior Solutions Architect, AWS
-- **Michael Armentano** – Principal WW GTM Specialist, AWS
+- **Anh Thi** – Solution Architect (Chủ đề: Agents và AI Tạo sinh)
+- **Anh Tùng** – Diễn giả (Chủ đề: Agentic Search và OpenSearch)
+- **Nhiều Account Manager và Solution Architect của AWS**
 
-### Nội dung nổi bật
+### Những Điểm Nổi bật Chính
 
-#### Khai mạc khách hàng AWS
+#### Phiên 1: AI Tạo sinh & Agents
+- **Các Mô hình Amazon Nova**: Tổng quan về các mô hình nền tảng (foundation models) mạnh mẽ mới nhất.
+- **Bedrock Agents**: Kiểm tra chi tiết về Flows, Điều phối (Orchestration), và các tính năng Guardrails cùng Bộ nhớ (Memory) mới được giới thiệu.
+- **Agentic AI**: Sự chuyển đổi từ các chatbot cơ bản sang các agent độc lập có khả năng xử lý các quy trình phức tạp, đa giai đoạn.
 
-#### Xây dựng nền tảng dữ liệu hợp nhất trên AWS cho AI và phân tích
+#### Phiên 2: SageMaker Unified Studio & Các cập nhật của S3
+- **Unified Studio**: Một môi trường phát triển tích hợp (IDE) hợp nhất các Kỹ sư AI, Nhà khoa học Dữ liệu và Kỹ sư Dữ liệu.
+- **S3 Tables**: Hỗ trợ tích hợp sẵn trên S3 cho định dạng bảng mở Apache Iceberg.
+- **S3 Vector**: Một khả năng mới cho việc lưu trữ vector nguyên bản trên S3, mang lại sự tiết kiệm chi phí đáng kể.
 
-- Xây dựng nền tảng dữ liệu hợp nhất, có khả năng mở rộng trên AWS, phù hợp cho các khối lượng công việc AI và phân tích
-- Bao gồm các thành phần chính như:
-    + **Thu thập dữ liệu**
-    + **Lưu trữ**
-    + **Xử lý**
-    + **Quản trị**
-- Đảm bảo tổ chức có thể quản lý và khai thác dữ liệu hiệu quả cho phân tích nâng cao và AI
+#### Phiên 3 & 4: Tìm kiếm & AI Đa phương thức (Multimodal)
+- **OpenSearch Serverless**: Liên kết Agentic Memory với Model Context Protocol (MCP).
+- **Nova Multimodal Embeddings**: Chuyển đổi nội dung hình ảnh và video thành các vector có thể tìm kiếm được.
+- **Bedrock Data Automation**: Tối ưu hóa việc trích xuất dữ liệu có giá trị từ các tệp đa phương tiện.
 
-#### Xây dựng tương lai: Ứng dụng Gen AI và lộ trình trên AWS
+#### Phiên 5: Hạ tầng AI
+- **SageMaker HyperPod**: Điều phối tinh vi cho các cụm GPU quy mô lớn.
+- **SageMaker MLflow**: Theo dõi và quản lý toàn diện từ đầu đến cuối cho các dự án Học máy (ML).
 
-- Trình bày tầm nhìn tổng thể, xu hướng mới và lộ trình chiến lược cho việc ứng dụng công nghệ GenAI
-- Bao gồm các dịch vụ và sáng kiến AWS giúp tổ chức tận dụng GenAI để thúc đẩy đổi mới và hiệu quả
+### Những Bài học Quan trọng
 
-#### Vòng đời phát triển phần mềm hướng AI (AI-DLC)
+#### Tương lai thuộc về Agentic
+- **Luồng công việc Tự trị (Autonomous Workflows)**: Sự tiến hóa từ việc tạo prompt (Prompt Engineering) sang thiết kế agent (Agent Engineering). Các agent nhận thức được ngữ cảnh giờ đây có thể thực hiện các tác vụ phức tạp mà không cần sự giám sát liên tục của con người.
+- **Guardrails là thiết yếu**: Sự trỗi dậy của các agent tự trị đòi hỏi các ranh giới bảo mật nghiêm ngặt và chính sách chặt chẽ.
 
-- Phương pháp tiếp cận lấy AI làm trung tâm, đưa AI trở thành cộng tác viên chính trong toàn bộ vòng đời phát triển phần mềm
+#### Tối ưu hóa Dữ liệu & Điện toán
+- **Hiệu quả Chi phí**: S3 Vector thay đổi mạnh mẽ cục diện cho các dự án bị hạn chế về ngân sách nhưng phụ thuộc vào tìm kiếm vector, chẳng hạn như các ứng dụng RAG.
+- **Cộng tác**: SageMaker Unified Studio đơn giản hóa quá trình chuyển đổi từ chuẩn bị dữ liệu sang huấn luyện mô hình.
 
-#### Bảo mật ứng dụng AI tạo sinh với AWS: Nguyên tắc và thực tiễn tốt nhất
+### Ứng dụng vào Công việc
 
-- Khám phá các thách thức bảo mật ở từng lớp của ngăn xếp AI tạo sinh—hạ tầng, mô hình và ứng dụng
- - Khám phá các biện pháp bảo mật như mã hóa, kiến trúc zero-trust, giám sát liên tục và kiểm soát truy cập chi tiết để bảo vệ các khối lượng công việc AI tạo sinh
+- **Tích hợp Dự án (Nền tảng Bảo mật)**:
+    - Đánh giá **Bedrock Agents** để tự động hóa các bài kiểm tra quét lỗ hổng (ví dụ: sử dụng một agent để thực thi quét, phân tích nhật ký và tạo báo cáo).
+- Triển khai **S3 Vector** để lưu trữ các chữ ký lỗ hổng và nhật ký một cách tiết kiệm chi phí trong hạ tầng backend.
+- **Tinh chỉnh Kiến trúc**: Đánh giá việc tích hợp **Cognito** để xử lý xác thực người dùng, lấy cảm hứng từ các cuộc trò chuyện với các Solution Architect.
+- **Thực tiễn tốt nhất**: Áp dụng triết lý "Ưu tiên Serverless" học được trong các phiên thảo luận kết nối.
 
-#### Vượt ra ngoài tự động hóa: AI Agent như trợ lý tăng năng suất tối đa
+### Trải nghiệm Sự kiện
 
-- Sự thay đổi tư duy khi AI Agent không chỉ là công cụ mà còn là đối tác thông minh thúc đẩy doanh nghiệp phát triển.
-- Giới thiệu về AI Agent mới của AWS: AWS Quick Suite
+Việc tham gia **“AWS re:Invent 2025 Recap”** tại trụ sở AWS Việt Nam đánh dấu một cột mốc quan trọng trong quá trình thực tập của tôi. Những khoảnh khắc nổi bật bao gồm:
 
-### Những điểm rút ra chính
+#### Mở rộng Tầm nhìn
+- Các bài thuyết trình đã làm rõ rằng **Agentic AI** chính là làn sóng lớn tiếp theo. Việc quan sát bản demo của Flow Agent đã khơi nguồn những ý tưởng mới cho tính năng báo cáo của dự án chúng tôi.
+- Việc hiểu về **Multimodal RAG** đã mở ra những trường hợp sử dụng tiềm năng vượt ra ngoài văn bản đơn thuần, điều này sẽ rất quan trọng cho các giai đoạn sau của Nền tảng Bảo mật của chúng tôi khi cần đánh giá ảnh chụp màn hình.
 
-#### Kết nối lý thuyết với thực tiễn ngành
-- **Vai trò quan trọng của Data Pipeline trong AI/ML**: Các phiên thảo luận khẳng định rằng các mô hình AI/ML tiên tiến hoàn toàn phụ thuộc vào nền tảng dữ liệu vững chắc. Điều này không chỉ là lưu trữ dữ liệu mà còn cần các pipeline được thiết kế tốt cho việc thu thập, xử lý, quản trị và lưu trữ, đây là thách thức kỹ thuật thực sự trước khi bắt đầu huấn luyện mô hình.
-- **Xu hướng phát triển phần mềm kết hợp AI và hệ thống bất đồng bộ**: Tương lai của phát triển phần mềm là sự kết hợp của hai xu hướng mạnh mẽ. Thứ nhất, **Vòng đời phát triển phần mềm hướng AI (AI-DLC)** với các công cụ như **Amazon Q Developer** sẽ trở thành tiêu chuẩn, nâng cao năng suất lập trình viên. Thứ hai, ưu tiên mạnh cho **giao tiếp bất đồng bộ, hướng sự kiện** thay vì API đồng bộ truyền thống để xây dựng hệ thống bền vững và mở rộng hơn.
-- **Tích hợp bảo mật xuyên suốt vòng đời phát triển**: Bảo mật không phải là bước cuối mà là phần không thể thiếu trong toàn bộ quá trình phát triển. Thảo luận đề cập đến việc bảo vệ toàn bộ stack—từ hạ tầng cloud, mô hình AI đến lớp ứng dụng.
+#### Xác thực Kỹ thuật
+- Việc ra mắt **S3 Vector** đã xác nhận nhu cầu của nhóm chúng tôi về một phương pháp lưu trữ tiết kiệm dành riêng cho việc phân tích nhật ký.
+- Việc trao đổi với **Anh Thi** và các Solution Architect khác đã giải tỏa sự nhầm lẫn về các tiêu chuẩn **Serverless** và **IAM Policies** mà tôi đã gặp khó khăn trong Tuần 3.
 
-***
-
-### Trải nghiệm sự kiện
-
-**"Vietnam Cloud Day 2025"** thực sự rất giá trị vì đã cung cấp bối cảnh thực tiễn rõ ràng cho nhiều khái niệm lý thuyết mình học trong ngành Công nghệ Thông tin. Sự kiện giúp mình kết nối kiến thức học thuật với ứng dụng thực tế trong ngành.
-
-Phần trình diễn về **Vòng đời phát triển phần mềm hướng AI** là điểm nhấn. Nó gợi mở sự thay đổi vai trò của lập trình viên, tập trung nhiều hơn vào kiến trúc và giải quyết vấn đề phức tạp, trong khi các trợ lý AI như **Amazon Q Developer** sẽ đảm nhận nhiều công việc lặp lại như sinh mã và debug. Việc tìm hiểu về các công nghệ mới như **AWS Quick Suite** cho AI Agent cũng cho mình cái nhìn hấp dẫn về làn sóng tự động hóa tiếp theo.
-
-Kết thúc sự kiện, mình có cái nhìn rõ ràng hơn về xu hướng ngành hiện tại và biết nên tập trung vào kỹ năng nào để chuẩn bị cho các kỳ thực tập và sự nghiệp tương lai.
-
-***
-
-#### Một số hình ảnh sự kiện
-![Selfie](/images/4-Event/SelfieCD.jpg)
-_Selfie_
-![Group picture](/images/4-Event/GroupCD.jpg)
-_Ảnh nhóm_
+#### Cộng đồng & Kết nối
+- Môi trường tại Văn phòng AWS rất sôi động, tràn ngập các nhà phát triển và kỹ sư trao đổi về các chiến lược giải quyết vấn đề thực tế.
+- Tôi đã tận dụng cơ hội này để trò chuyện về **dự án nhóm “TheBois”** với các chuyên gia dày dạn kinh nghiệm, thu được những góc nhìn quan trọng về thiết kế kiến trúc của chúng tôi.
