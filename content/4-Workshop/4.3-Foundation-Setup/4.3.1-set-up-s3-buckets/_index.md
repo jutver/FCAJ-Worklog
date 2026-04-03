@@ -3,7 +3,7 @@ title : "Set up S3 buckets"
 date: "2000-01-01"
 weight : 01
 chapter : false
-pre : " <b> 5.3.1. </b> "
+pre : " <b> 4.3.1. </b> "
 ---
 
 In this section, you will create 5 S3 buckets that serve as the foundation for the Auto Incident Response system.

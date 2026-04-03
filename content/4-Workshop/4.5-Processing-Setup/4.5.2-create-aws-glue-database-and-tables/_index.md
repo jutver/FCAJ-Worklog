@@ -3,7 +3,7 @@ title : "Create AWS Glue Database and Tables"
 date: "2000-01-01"
 weight : 02
 chapter : false
-pre : " <b> 5.5.2. </b> "
+pre : " <b> 4.5.2. </b> "
 ---
 
 ## Create AWS Glue Database and Tables

@@ -1,7 +1,7 @@
 ---
 title: "Worklog"
 date: "2025-09-09"
-weight: 01
+weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
@@ -28,5 +28,3 @@ pre: " <b> 1. </b> "
 **Week 11:** [Refined the architecture by removing the Glue Crawler, added SQS for reliability, and began comprehensive research on AWS CDK](1.11-week11/)
 
 **Week 12:** [Successfully implemented the core ETL pipeline and logging infrastructure using AWS CDK, and optimized CloudTrail logging with gzip compression](1.12-week12/)
-
-**Week 13:** [Finalized the architecture by integrating Kinesis Data Firehose and overhauling the IR workflow with tagging and EBS snapshotting for project submission](1.13-week13/)

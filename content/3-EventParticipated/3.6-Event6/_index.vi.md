@@ -1,7 +1,7 @@
 ---
 title: "Sự kiện 6"
 date: "2025-11-29"
-weight: 06
+weight: 6
 chapter: false
 pre: " <b> 3.6. </b> "
 ---

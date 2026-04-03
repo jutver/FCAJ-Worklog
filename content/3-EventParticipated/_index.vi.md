@@ -1,7 +1,7 @@
 ---
 title: "Các events đã tham gia"
 date: "2000-01-01"
-weight: 03
+weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---

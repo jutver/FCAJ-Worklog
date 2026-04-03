@@ -1,32 +1,32 @@
 ---
-title : "Set up S3 buckets policies"
+title : "Thiết lập S3 buckets policies"
 date: "2000-01-01"
 weight : 02
 chapter : false
-pre : " <b> 5.3.2. </b> "
+pre : " <b> 4.3.2. </b> "
 ---
 
-In this section, you will configure the bucket policy for the primary log bucket to allow CloudTrail, GuardDuty, and CloudWatch Logs to write logs.
+Trong phần này, bạn sẽ cấu hình bucket policy cho bucket log chính để cho phép CloudTrail, GuardDuty, và CloudWatch Logs ghi log.
 
-### Configure Bucket Policy
+### Cấu hình Bucket Policy
 
-1. **Navigate to the primary log bucket**:
-   - In S3 Console, click on `incident-response-log-list-bucket-ACCOUNT_ID-REGION`
+1. **Điều hướng đến bucket log chính**:
+   - Trong S3 Console, nhấn vào `incident-response-log-list-bucket-ACCOUNT_ID-REGION`
 
 ![alt text](</images/5-Workshop/Workshop pic/7 open bucket 5.3.2.png>)
 
-2. **Open the Permissions tab**:
-   - Click on the **"Permissions"** tab
+2. **Mở tab Permissions**:
+   - Nhấn vào tab **"Permissions"**
 
-3. **Scroll to Bucket policy**:
-   - Scroll down to the **"Bucket policy"** section
-   - Click **"Edit"**
+3. **Cuộn đến Bucket policy**:
+   - Cuộn xuống phần **"Bucket policy"**
+   - Nhấn **"Edit"**
 
 ![alt text](</images/5-Workshop/Workshop pic/9 policy edit.png>)
 
-4. **Paste the bucket policy**:
-   - Copy the following JSON policy
-   - **Important**: Replace `ACCOUNT_ID` and `REGION` with your actual values in the policy
+4. **Dán bucket policy**:
+   - Copy JSON policy sau
+   - **Quan trọng**: Thay thế `ACCOUNT_ID` và `REGION` bằng giá trị thực tế của bạn trong policy
 
 ```json
 {
@@ -139,8 +139,8 @@ In this section, you will configure the bucket policy for the primary log bucket
 }
 ````
 
-5.  **Click "Save changes"**
+5.  **Nhấn "Save changes"**
 
-6.  **Verify policy is saved**: You should see the policy displayed in the Bucket policy section
+6.  **Xác minh policy đã lưu**: Bạn sẽ thấy policy hiển thị trong phần Bucket policy
 
 ![alt text](</images/5-Workshop/Workshop pic/10 confirm successful 5.3.2.png>)

@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: "2000-01-01"
-weight: 05
+weight: 4
 chapter: false
-pre: " <b> 5. </b> "
+pre: " <b> 4. </b> "
 ---
 
 # AWS Automated Incident Response and Forensics System Setup

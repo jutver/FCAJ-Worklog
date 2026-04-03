@@ -3,7 +3,7 @@ title : "Thiết lập S3 buckets"
 date: "2000-01-01"
 weight : 01
 chapter : false
-pre : " <b> 5.3.1. </b> "
+pre : " <b> 4.3.1. </b> "
 ---
 
 Trong phần này, bạn sẽ tạo 5 S3 buckets phục vụ làm nền tảng cho hệ thống Phản hồi Sự cố Tự động (Auto Incident Response system).

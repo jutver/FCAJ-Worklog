@@ -29,5 +29,3 @@ pre: " <b> 1. </b> "
 **Tuần 11:** [Tinh chỉnh kiến trúc bằng cách loại bỏ **Glue Crawler**, thêm **SQS** để tăng độ tin cậy, và bắt đầu nghiên cứu toàn diện về **AWS CDK**](1.11-week11/)
 
 **Tuần 12:** [Triển khai thành công **core ETL pipeline** và cơ sở hạ tầng ghi nhật ký bằng **AWS CDK**, và tối ưu hóa ghi nhật ký **CloudTrail** với nén **gzip**](1.12-week12/)
-
-**Tuần 13:** [Hoàn thiện kiến trúc bằng cách tích hợp **Kinesis Data Firehose** và đại tu quy trình **IR** với gắn thẻ (**tagging**) và **EBS snapshotting** cho việc nộp dự án](1.13-week13/)

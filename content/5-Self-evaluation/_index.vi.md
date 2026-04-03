@@ -1,9 +1,9 @@
 ---
 title: "Tự đánh giá"
 date: "2000-01-01"
-weight: 06
+weight: 5
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 5. </b> "
 ---
 ### Đánh giá thực tập 
 

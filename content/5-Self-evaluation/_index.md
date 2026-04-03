@@ -1,9 +1,9 @@
 ---
 title: "Self-Assessment"
 date: "2000-01-01"
-weight: 06
+weight: 5
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 5. </b> "
 ---
 
 During my internship at **Amazon Web Services Vietnam** from **08/09/2025** to **12/12/2025**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  

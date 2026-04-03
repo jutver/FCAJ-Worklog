@@ -3,7 +3,7 @@ title : "Thiết lập giám sát"
 date: "2000-01-01"
 weight : 04
 chapter : false
-pre : " <b> 5.4. </b> "
+pre : " <b> 4.4. </b> "
 ---
 
 Giai đoạn Thiết lập giám sát này kích hoạt và cấu hình ba nguồn log cốt lõi để phát hiện mối đe dọa. Giai đoạn này bao gồm việc bật CloudTrail cho các sự kiện quản lý và dữ liệu toàn diện, kích hoạt GuardDuty để xuất các phát hiện bảo mật sang S3 bucket chính, và thiết lập VPC Flow Logs trên mạng của bạn để gửi tất cả metadata lưu lượng truy cập đến CloudWatch Log Group chuyên dụng. Điều này đảm bảo luồng dữ liệu log liên tục, tập trung luôn sẵn sàng cho việc xử lý và phản hồi tự động.

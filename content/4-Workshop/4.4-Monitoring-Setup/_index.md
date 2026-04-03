@@ -3,7 +3,7 @@ title : "Monitoring Setup"
 date: "2000-01-01"
 weight : 04
 chapter : false
-pre : " <b> 5.4. </b> "
+pre : " <b> 4.4. </b> "
 ---
 
 This Monitoring Setup phase activates and configures the three core log sources for threat detection. It involves enabling CloudTrail for comprehensive management and data events, activating GuardDuty to export security findings to the primary S3 bucket, and setting up VPC Flow Logs on your network to send all traffic metadata to the dedicated CloudWatch Log Group. This ensures a constant, centralized stream of log data is available for processing and automated response.
