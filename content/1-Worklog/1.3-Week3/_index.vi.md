@@ -33,20 +33,20 @@ pre: " <b> 1.3. </b> "
 * Nắm bắt được mục đích cốt lõi của Amazon VPC và tầm quan trọng của nó trong mạng AWS.
 
 * Phát triển các kỹ năng để cấp phát và tinh chỉnh:
-  * VPCs
-  * Subnets
-  * Route Tables
+  * VPCs
+  * Subnets
+  * Route Tables
 
 * Phân biệt rõ ràng sự khác biệt trong hoạt động giữa:
-  * Security Groups (lọc có trạng thái - stateful filtering)
-  * Network ACLs (lọc phi trạng thái - stateless filtering)
+  * Security Groups (lọc có trạng thái - stateful filtering)
+  * Network ACLs (lọc phi trạng thái - stateless filtering)
 
 * Nắm vững cơ chế của các thành phần định tuyến quan trọng:
-  * Internet Gateways
-  * NAT Gateways
-  * Phân đoạn Public và Private Subnet
+  * Internet Gateways
+  * NAT Gateways
+  * Phân đoạn Public và Private Subnet
 
 * Triển khai hiệu quả một kiến trúc đa tầng nền tảng, bao gồm:
-  * Một public subnet được thiết kế cho các tài nguyên hướng ra internet
-  * Một private subnet được bảo mật cho các hệ thống nội bộ
-  * Thiết lập cổng kết nối và định tuyến chính xác
+  * Một public subnet được thiết kế cho các tài nguyên hướng ra internet
+  * Một private subnet được bảo mật cho các hệ thống nội bộ
+  * Thiết lập cổng kết nối và định tuyến chính xác

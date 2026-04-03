@@ -33,20 +33,20 @@ pre: " <b> 1.3. </b> "
 * Grasped the core purpose of Amazon VPC and its significance within AWS networking.
 
 * Developed the skills to provision and tune:
-  * VPCs
-  * Subnets
-  * Route Tables
+  * VPCs
+  * Subnets
+  * Route Tables
 
 * Clearly distinguished the operational differences between:
-  * Security Groups (stateful filtering)
-  * Network ACLs (stateless filtering)
+  * Security Groups (stateful filtering)
+  * Network ACLs (stateless filtering)
 
 * Mastered the mechanisms of critical routing components:
-  * Internet Gateways
-  * NAT Gateways
-  * Public and Private Subnet segmentation
+  * Internet Gateways
+  * NAT Gateways
+  * Public and Private Subnet segmentation
 
 * Effectively deployed a foundational multi-layered architecture, featuring:
-  * A public subnet designed for internet-facing assets
-  * A private subnet secured for internal systems
-  * Accurate routing and gateway setups
+  * A public subnet designed for internet-facing assets
+  * A private subnet secured for internal systems
+  * Accurate routing and gateway setups
