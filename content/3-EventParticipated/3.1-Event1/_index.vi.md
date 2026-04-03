@@ -3,7 +3,7 @@ title: "Event 1"
 date: "2005-09-18"
 weight: 01
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
 ## Báo cáo sự kiện: “Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders: Gen AI and Data track”
