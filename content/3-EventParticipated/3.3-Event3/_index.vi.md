@@ -3,7 +3,7 @@ title: "Sự kiện 3"
 date: "2025-11-15"
 weight: 03
 chapter: false
-pre: " <b> 4.3. </b> "
+pre: " <b> 3.3. </b> "
 ---
 
 # Báo Cáo Tóm Tắt: “AWS Cloud Mastery Series #1 - AI/ML/GenAI trên AWS”

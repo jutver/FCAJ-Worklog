@@ -3,7 +3,7 @@ title: "Sự kiện 6"
 date: "2025-11-29"
 weight: 06
 chapter: false
-pre: " <b> 4.6. </b> "
+pre: " <b> 3.6. </b> "
 ---
 
 # Báo Cáo Tóm Tắt: “AWS Cloud Mastery Series #3: AWS Well-Architected – Security Pillar Workshop”

@@ -3,7 +3,7 @@ title: "Sự kiện 5"
 date: "2025-11-19"
 weight: 05
 chapter: false
-pre: " <b> 4.5. </b> "
+pre: " <b> 3.5. </b> "
 ---
 
 # Báo Cáo Tóm Tắt: “Secure Your Applications: AWS Perimeter Protection Workshop”

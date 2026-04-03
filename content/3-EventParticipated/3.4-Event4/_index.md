@@ -3,7 +3,7 @@ title: "Event 4"
 date: "2025-11-17"
 weight: 04
 chapter: false
-pre: " <b> 4.4. </b> "
+pre: " <b> 3.4. </b> "
 ---
 
 # Summary Report: “AWS Cloud Mastery Series #2 - DevOps on AWS”

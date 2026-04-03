@@ -3,7 +3,7 @@ title: "Sự kiện 7"
 date: "2025-11-29"
 weight: 07
 chapter: false
-pre: " <b> 4.7. </b> "
+pre: " <b> 3.7. </b> "
 ---
 
 # Báo Cáo Tóm Tắt: “BUILDING AGENTIC AI - Context Optimization with Amazon Bedrock”
