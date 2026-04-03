@@ -8,31 +8,57 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu Tuần 5:
 
-* Tiếp tục xây dựng và lập kế hoạch đề xuất dự án
-### Các nhiệm vụ được thực hiện trong tuần này:
-| Ngày | Nhiệm vụ | Ngày Bắt đầu | Ngày Hoàn thành | Tài liệu Tham khảo |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   |- Việc gia đình | 06/10/2025 | 06/10/2025      | |
-| 3   |- Việc gia đình | 07/10/2025 | 07/10/2025      | |
-| 4   |- Học cách tạo Sơ đồ Kiến trúc **AWS** cơ bản <br> - Đã tạo sơ đồ kiến trúc **workshop** của nhóm | 08/10/2025 | 08/10/2025      | |
-| 5   | - Lab 35: <br>&emsp; + Thiết lập thành công **data stream** bằng **Kinesis** <br>&emsp; + Gửi thành công dữ liệu mẫu đến **S3** bằng **Kinesis Data Generator** với **Amazon Cognito** <br>&emsp; + Học cách sử dụng **AWS Glue Crawler** để **map data** đến **S3 Bucket** <br>&emsp; + Sử dụng **Athena** để truy vấn dữ liệu  <br>&emsp; + Sử dụng **AWS Glue Notebook** để xây dựng **dataset** dựa trên dữ liệu mẫu <br>&emsp; + Sử dụng **Athena** để phân tích dữ liệu và trực quan hóa với **QuickSight** <br> - Cập nhật sơ đồ kiến trúc dựa trên các thay đổi trong đề xuất **workshop** <br> - Bắt đầu nghiên cứu **GuardDuty** để sử dụng làm thành phần của **workshop** | 09/10/2025 | 09/10/2025      |<br> [Lab 35](https://000035.awsstudygroup.com/) |
-| 6   |- Lab 40: <br>&emsp; + Thực hành thêm với **AWS Glue** và **Athena**, sử dụng để phân tích dữ liệu **AWS Monthly Cost** <br> - Môn học ở trường: <br> &emsp; + **KS57**:  Hoàn thành **Giáo dục và Phát triển nguồn nhân lực số**  | 10/10/2025 | 10/10/2025      | [Lab 40](https://000040.awsstudygroup.com/) <br><br> [Giáo dục và Phát triển nguồn nhân lực số](https://www.coursera.org/account/accomplishments/verify/QN69JGYDY7PU)|
+* Nắm bắt các nguyên tắc của Điện toán không máy chủ (Serverless Computing) trong hệ sinh thái AWS.
+* Trang bị kiến thức nền tảng về AWS Lambda, API Gateway và DynamoDB.
+* Phát triển một backend REST API cơ bản tận dụng các công nghệ serverless.
 
+---
+
+### Các công việc cần thực hiện trong tuần này:
+
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|----|-----|------------|----------------|------------------|
+| 2 | - Khám phá bức tranh toàn cảnh về Kiến trúc Serverless <br> - Xem xét AWS Lambda và các trường hợp sử dụng phổ biến | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Nghiên cứu các thành phần của AWS Lambda (functions, runtimes và triggers) <br> - Triển khai một Lambda function ban đầu | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Nắm vững các kiến thức cơ bản về API Gateway <br> - Cấu hình một endpoint REST API | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu các tính năng cốt lõi của DynamoDB <br>&emsp; + Bảng (Tables) <br>&emsp; + Khóa phân vùng (Partition keys) <br>&emsp; + Khóa sắp xếp (Sort keys) <br> - Thực thi các thao tác CRUD cơ bản | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Bài tập thực hành:** <br>&emsp; + Tích hợp Lambda với API Gateway <br>&emsp; + Liên kết Lambda với DynamoDB <br>&emsp; + Xác thực REST API | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Thành tựu Tuần 5:
 
-* Phát triển Đề xuất: Đã tạo và cập nhật thành công **sơ đồ kiến trúc workshop** của nhóm, học các **best practices** cho việc vẽ sơ đồ kiến trúc **AWS**.
+* Hiểu rõ mô hình Điện toán không máy chủ (Serverless Computing) và các lợi ích chính của nó.
 
-* **Data Streaming** và **Analytics**: Hoàn thành một **lab** phức tạp tập trung vào các **data pipelines**:
+* Nắm vững các khái niệm cốt lõi của AWS Lambda:
+  * Functions, runtimes và handlers
+  * Cơ chế kích hoạt (Triggers) và vòng đời thực thi
 
-  *  Thiết lập thành công **data stream real-time** bằng **Amazon Kinesis**.
+* Cấp phát các Lambda function có khả năng xử lý các yêu cầu API.
 
-  *  Sử dụng **Kinesis Data Generator** với **Amazon Cognito** để gửi dữ liệu mẫu đến **S3**.
+* Thành thạo AWS API Gateway thông qua việc:
+  * Xây dựng các REST API
+  * Thiết lập tài nguyên (resources) và phương thức HTTP (methods)
+  * Thiết lập tích hợp với Lambda
 
-  *  Học cách sử dụng **AWS Glue Crawler** để **map data** và **AWS Glue Notebook** để xây dựng **datasets**.
+* Tiếp thu các kiến thức cơ bản về DynamoDB:
+  * Kiến trúc bảng (Table architectures)
+  * Khóa chính (Partition keys và Sort keys)
+  * Giới hạn công suất đọc và ghi (Read and Write capacity)
 
-  *  Sử dụng **Amazon Athena** để truy vấn dữ liệu và **Amazon QuickSight** để trực quan hóa dữ liệu.
+* Thực thi hiệu quả các tương tác CRUD đối với các bảng DynamoDB.
 
-* Thực hành các kỹ năng **analytics** nâng cao bằng cách sử dụng **AWS Glue** và **Athena** để phân tích dữ liệu **AWS Monthly Cost**.
+* Xây dựng một backend REST API hoàn chỉnh tích hợp:
+  * API Gateway
+  * AWS Lambda
+  * DynamoDB
 
-* Nghiên cứu **Workshop**: Đã bắt đầu nghiên cứu về **Amazon GuardDuty** như một thành phần cho đề xuất **workshop** của nhóm.
+* Xác thực các endpoint API bằng cách sử dụng các công cụ như Postman hoặc trình duyệt web.
+
+---
+
+### Tự đánh giá:
+
+Trong suốt Tuần 5, tôi đã phát triển được sự hiểu biết thực tế về Kiến trúc Serverless trên AWS. Tôi đã có khả năng triển khai các Lambda function, giúp chúng có thể truy cập được thông qua API Gateway và quản lý việc lưu trữ dữ liệu trong DynamoDB. Những kỹ năng đạt được này cung cấp một bước đệm quan trọng để xây dựng các giải pháp gốc đám mây (cloud-native) có khả năng mở rộng cao trong tương lai.
+
+---

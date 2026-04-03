@@ -8,31 +8,57 @@ pre: " <b> 1.5. </b> "
 
 ### Week 5 Objectives:
 
-* Continue building and planning proposal
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   |- Family matters | 06/10/2025 | 06/10/2025      | |
-| 3   |- Family matters | 07/10/2025 | 07/10/2025      | |
-| 4   |- Learnt how to create basic AWS Architecture Diagrams <br> - Created team's workshop architecture diagram | 08/10/2025 | 08/10/2025      | |
-| 5   | - Lab 35: <br>&emsp; + Successfully set up data stream using Kinesis <br>&emsp; + Successfully sent sample data to S3 using Kinesis Data Generator with Amazon Cognito <br>&emsp; + Learnt how to use AWS Glue Crawler to map data to S3 Bucket <br>&emsp; + Used Athena to query data  <br>&emsp; + Used AWS Glue Notebook to build dataset based on sample data <br>&emsp; + Used Athena to analyze data and visualized with QuickSight <br> - Updated the architecture diagram based on changes in the workshop proposal <br> - Started researching GuardDuty to use as a component of the workshop  | 09/10/2025 | 09/10/2025      |<br> [Lab 35](https://000035.awsstudygroup.com/) |
-| 6   |- Lab 40: <br>&emsp; + Practiced more with AWS Glue and Athena, used it to analyze AWS Monthly Cost data <br> - School subject: <br> &emsp; + KS57:  Completed Giáo dục và Phát triển nguồn nhân lực số  | 10/10/2025 | 10/10/2025      | [Lab 40](https://000040.awsstudygroup.com/) <br><br> [Giáo dục và Phát triển nguồn nhân lực số](https://www.coursera.org/account/accomplishments/verify/QN69JGYDY7PU)|
+* Grasp the principles of Serverless Computing within the AWS ecosystem.
+* Acquire foundational knowledge of AWS Lambda, API Gateway, and DynamoDB.
+* Develop a basic REST API backend leveraging serverless technologies.
 
+---
+
+### Tasks to be carried out this week:
+
+| Day | Task | Start Date | Completion Date | Reference Material |
+|----|-----|------------|----------------|------------------|
+| 2 | - Explored the big picture of Serverless Architecture <br> - Examined AWS Lambda and its common use cases | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Studied AWS Lambda components (functions, runtimes, and triggers) <br> - Deployed an initial Lambda function | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Mastered the basics of API Gateway <br> - Configured a REST API endpoint | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Investigated core DynamoDB features <br>&emsp; + Tables <br>&emsp; + Partition keys <br>&emsp; + Sort keys <br> - Executed fundamental CRUD operations | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Practical exercise:** <br>&emsp; + Integrate Lambda with API Gateway <br>&emsp; + Link Lambda to DynamoDB <br>&emsp; + Validate the REST API | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Week 5 Achievements:
 
-* Proposal Development: Successfully created and updated the team's workshop architecture diagram, learning the best practices for diagramming AWS architecture.
+* Comprehended the Serverless Computing paradigm and its primary benefits.
 
-* Data Streaming and Analytics: Completed a complex lab focused on data pipelines:
+* Mastered core AWS Lambda concepts:
+  * Functions, runtimes, and handlers
+  * Trigger mechanisms and execution lifecycles
 
-  *  Successfully set up a real-time data stream using Amazon Kinesis.
+* Provisioned Lambda functions capable of processing API requests.
 
-  *  Used Kinesis Data Generator with Amazon Cognito to send sample data to S3.
+* Gained proficiency in AWS API Gateway by:
+  * Constructing REST APIs
+  * Setting up resources and HTTP methods
+  * Establishing Lambda integrations
 
-  * Learned to use AWS Glue Crawler to map data and AWS Glue Notebook to build datasets.
+* Absorbed DynamoDB fundamentals:
+  * Table architectures
+  * Primary keys (Partition keys and Sort keys)
+  * Read and Write capacity limits
 
-  * Used Amazon Athena for querying data and Amazon QuickSight for data visualization.
+* Effectively executed CRUD interactions against DynamoDB tables.
 
-* Practiced advanced analytics skills by using AWS Glue and Athena to analyze AWS Monthly Cost data.
+* Constructed a functional REST API backend integrating:
+  * API Gateway
+  * AWS Lambda
+  * DynamoDB
 
-* Workshop Research: Initiated research on Amazon GuardDuty as a component for the team's workshop proposal.
+* Validated API endpoints utilizing tools like Postman or a web browser.
+
+---
+
+### Self-Evaluation:
+
+Throughout Week 5, I developed a hands-on comprehension of Serverless Architecture within AWS. I possess the capability to deploy Lambda functions, make them accessible via API Gateway, and manage data persistence in DynamoDB. These acquired skills provide a crucial stepping stone for constructing highly scalable, cloud-native solutions in the future.
+
+---

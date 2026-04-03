@@ -50,6 +50,8 @@ During my internship, I participated in seven events. Each one was a memorable e
 
 &emsp;**Role:** Attendee  
 
+---
+
 ### [Event 5](3.5-Event5/)  
 &emsp;**Event Name:** Secure Your Applications: AWS Perimeter Protection Workshop  
 
@@ -58,22 +60,3 @@ During my internship, I participated in seven events. Each one was a memorable e
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
-
-### [Event 6](3.6-Event6/)  
-&emsp;**Event Name:** AWS Well-Architected – Security Pillar Workshop
-
-&emsp;**Date & Time:** 08:30, November 29th, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
-
-### [Event 7](3.7-Event7/)  
-&emsp;**Event Name:** BUILDING AGENTIC AI - Context Optimization with Amazon Bedrock
-
-&emsp;**Date & Time:** 08:30, December 5th, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee 
-
