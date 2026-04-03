@@ -6,12 +6,13 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-
 ### Week 8 Objectives:
 
 * Grasp the concepts of system monitoring and log management within AWS.
 * Acquire skills in utilizing Amazon CloudWatch, CloudTrail, and AWS X-Ray.
 * Gain hands-on experience by configuring a foundational monitoring environment.
+
+---
 
 ### Tasks to be carried out this week:
 
@@ -22,6 +23,8 @@ pre: " <b> 1.8. </b> "
 | 4   | - Practical CloudWatch exercises: <br>  + Established custom metrics <br>  + Configured alerts (CPU utilization, health status checks)                                                                 | 03/04/2026 | 03/04/2026      | https://cloudjourney.awsstudygroup.com/ |
 | 5   | - Investigated AWS CloudTrail: <br>  + Reviewed event histories <br>  + Comprehended audit logging mechanisms                                                                                          | 03/05/2026 | 03/05/2026      | https://cloudjourney.awsstudygroup.com/ |
 | 6   | - Explored AWS X-Ray: <br>  + Implemented distributed tracing <br>  + Evaluated request lifecycles <br> - Practical exercise: Deployed a monitoring setup                                              | 03/06/2026 | 03/06/2026      | https://cloudjourney.awsstudygroup.com/ |
+
+---
 
 ### Week 8 Achievements:
 
@@ -39,3 +42,5 @@ pre: " <b> 1.8. </b> "
   * Visualized the trajectory of requests across microservices
   * Pinpointed performance bottlenecks and system latency
 * Successfully engineered a cohesive monitoring architecture by integrating various AWS tools.
+
+---
