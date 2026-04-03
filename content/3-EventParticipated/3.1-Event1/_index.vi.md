@@ -1,5 +1,5 @@
 ---
-title: "Event 1"
+title: "Sự kiện 1"
 date: "2005-09-18"
 weight: 1
 chapter: false
