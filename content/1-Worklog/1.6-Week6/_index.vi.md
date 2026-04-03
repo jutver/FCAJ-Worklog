@@ -5,41 +5,39 @@ weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
+
 ### Mục tiêu Tuần 6:
 
-* Hoàn thành và nộp đề xuất dự án
-* Phân công nhiệm vụ cho thành viên nhóm để bắt đầu **workshop**
+* Nắm bắt các khái niệm đằng sau các công cụ Tích hợp Ứng dụng (Application Integration) của AWS.
+* Khám phá cơ chế của các kiến trúc hướng sự kiện (event-driven architectures) trên đám mây.
+* Tích lũy kinh nghiệm thực tế trong việc xây dựng các luồng công việc cơ bản bằng cách sử dụng các công cụ nhắn tin và điều phối.
 
-### Các nhiệm vụ được thực hiện trong tuần này:
-| Ngày | Nhiệm vụ | Ngày Bắt đầu | Ngày Hoàn thành | Tài liệu Tham khảo |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Định dạng lại và tinh chỉnh **worklog**, thêm thông tin và tóm tắt <br> - Triển khai **worklog** thành công lên **GitHub Pages** | 13/10/2025 | 13/10/2025| |
-| 3 | - Họp nhóm <br> - Sửa đổi đề xuất **workshop**: Tập trung sử dụng **GuardDuty** để phát hiện xâm nhập thay vì hàm **Lambda** tùy chỉnh do cần bộ dữ liệu lớn và thời gian phát triển mở rộng. <br> - Vẽ lại Kiến trúc **AWS**: Thêm **GuardDuty** thay thế **CloudWatch Alarm** <br> - Viết bản nháp đề xuất phác thảo chức năng cơ bản và cung cấp ước tính chi phí sơ bộ. | 14/10/2025 | 14/10/2025      ||
-| 4 | - Họp nhóm <br> - Sửa đổi đề xuất **workshop**: <br> &emsp; + Kết hợp việc sử dụng **EventBridge** <br> &emsp; + Tính toán lại chi phí bằng cách giảm loại **EC2 instance** và số giờ hoạt động <br> - Cập nhật Kiến trúc **AWS**: Bao gồm biểu tượng **EventBridge** và các kết nối | 15/10/2025 | 15/10/2025 ||
-| 5   | - Cập nhật Kiến trúc **AWS**: <br> &emsp; + Sắp xếp lại các biểu tượng để các kết nối rõ ràng hơn. <br> &emsp; + Di chuyển **SSM** vào bên trong nhóm **region** <br> &emsp; + Thêm nhóm **public subnet** cho **EC2 Instance** <br> - Cài đặt **AmazonQ** để tăng cường phân tích đề xuất <br> - Sửa đổi đề xuất **workshop**: Tính toán lại chi phí bằng **AWS Pricing Calculator** <br> - Dịch bản nháp đề xuất sang mã **markdown** và triển khai thành công lên **GitHub Pages** <br> - Tham gia hội thảo trực tuyến **DX<inAction> Talk#7: Reinventing DevSecOps with AWS Generative AI** | 16/10/2025 | 16/10/2025      ||
-| 6   | - Biên soạn tài liệu học tập cho kỳ thi giữa kỳ <br> - Môn học ở trường: <br> &emsp; + **ENW493c**: Hoàn thành **Being a researcher (in Information Science and Technology)**   | 17/10/2025 | 17/10/2025      | [Being a researcher (in Information Science and Technology)](https://www.coursera.org/account/accomplishments/verify/JZB2HYOLEGOD) |
+---
 
+### Các công việc đã hoàn thành trong tuần này:
 
-### Thành tựu Tuần 6:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|-----|------|------------|----------------|-------------------|
+| 2 | - Nắm bắt các nguyên tắc cơ bản của hàng đợi tin nhắn. <br> - Phân biệt giữa hàng đợi Standard và FIFO. <br> - Thực thi việc gửi và nhận tin nhắn. <br> - Hiểu thấu đáo khái niệm tách rời (decoupling) các vi dịch vụ (microservices). | 02/16/2026 | 02/16/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Khám phá mô hình nhắn tin Xuất bản/Đăng ký (Publish/Subscribe). <br> - Cấp phát các chủ đề (topics) và điểm cuối đăng ký (subscriber endpoints). <br> - Xác minh việc phát sóng tin nhắn đến nhiều người nhận khác nhau. | 02/17/2026 | 02/17/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Khám phá các cơ chế định tuyến sự kiện. <br> - Thiết lập các quy tắc để khởi tạo hành động dựa trên các sự kiện cụ thể. <br> - Nắm bắt cách các công cụ AWS khác nhau tích hợp thông qua các trình kích hoạt sự kiện. | 02/18/2026 | 02/18/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Nắm vững việc điều phối các luồng công việc phức tạp. <br> - Phác thảo một máy trạng thái (state machine) thô sơ. <br> - Hiểu rõ trình tự sắp xếp các tác vụ và các cơ chế xử lý lỗi. | 02/19/2026 | 02/19/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | Bài tập thực hành: Xây dựng một thiết lập hướng sự kiện cơ bản | 02/20/2026 | 02/20/2026 | https://cloudjourney.awsstudygroup.com/ |
 
+---
 
-* **Tinh chỉnh Đề xuất**:
+### Thành tựu Tuần 6
 
-  * Hoàn thành nhiều lần sửa đổi đề xuất **workshop**, chuyển từ việc sử dụng hàm **Lambda** tùy chỉnh sang sử dụng **GuardDuty** để phát hiện xâm nhập.
+* Hiểu rõ các công cụ AWS chính dành cho Tích hợp Ứng dụng.
+* Xây dựng một khuôn khổ hướng sự kiện bước đầu tận dụng SQS, SNS và EventBridge.
+* Triển khai và chạy thành công một máy trạng thái Step Functions.
+* Đạt được sự hiểu biết thực tế về giao tiếp không đồng bộ (asynchronous communication) giữa các dịch vụ.
+* Nâng cao khả năng kiến trúc các môi trường đám mây tách rời (decoupled) cao.
 
-  * Tính toán lại thành công và giảm chi phí ước tính bằng cách tối ưu hóa loại **EC2 instance** và số giờ hoạt động.   
+---
 
-  * Dịch sang **markdown**, và triển khai bản nháp đề xuất lên **GitHub Pages**.
+### Suy ngẫm
 
+Những bài học trong tuần này đã làm rõ cách các hạ tầng đám mây quy mô lớn xử lý liên lạc nội bộ thông qua các hệ thống nhắn tin và sự kiện. Tôi học được rằng việc tận dụng các công cụ Tích hợp Ứng dụng của AWS tạo điều kiện cho việc tạo ra các kiến trúc linh hoạt, có khả năng phục hồi và mở rộng cao, thay vì sử dụng các hệ thống liên kết chặt chẽ và cứng nhắc.
 
-* **Cập nhật Kiến trúc và Hệ thống**:
-
-  * Sửa đổi sơ đồ Kiến trúc **AWS**, kết hợp **GuardDuty**, **EventBridge**, và tinh chỉnh cách sắp xếp biểu tượng cùng nhóm **subnet** để rõ ràng và chính xác hơn.
-
-  * Cập nhật **worklog** và triển khai thành công **worklog** đã tinh chỉnh lên **GitHub Pages**.
-
-  * Cài đặt **AmazonQ**.
-
-* Đã tham dự hội thảo trực tuyến **'DX<inAction> Talk#7: Reinventing DevSecOps with AWS Generative AI'**.
-
-* Biên soạn tài liệu học tập cho kỳ thi giữa kỳ.
+---

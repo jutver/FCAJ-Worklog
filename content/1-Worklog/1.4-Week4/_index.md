@@ -18,12 +18,12 @@ pre: " <b> 1.4. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| Mon | - Investigated core IAM principles <br> - Explored IAM users, groups, and roles | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| Tue | - Studied IAM access policies <br> - Analyzed the AWS permission structure | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| Wed | - Provisioned IAM users and user groups <br> - Delegated permissions utilizing policies | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| Thu | - Enabled MFA for IAM accounts <br> - Reviewed overarching security best practices | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| Fri | - Examined IAM roles and role-centric access control | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| Sat | - **Practical exercise:** Safeguarded multi-user workspace: <br>  + Provision various IAM users <br>  + Form groups and link policies <br>  + Enable MFA <br>  + Verify access rights | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 2 | - Investigated core IAM principles <br> - Explored IAM users, groups, and roles | 02/02/2026 | 02/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Studied IAM access policies <br> - Analyzed the AWS permission structure | 02/03/2026 | 02/03/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Provisioned IAM users and user groups <br> - Delegated permissions utilizing policies | 02/04/2026 | 02/04/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Enabled MFA for IAM accounts <br> - Reviewed overarching security best practices | 02/05/2026 | 02/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Examined IAM roles and role-centric access control | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 7 | - **Practical exercise:** Safeguarded multi-user workspace: <br>  + Provision various IAM users <br>  + Form groups and link policies <br>  + Enable MFA <br>  + Verify access rights | 02/07/2026 | 02/07/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 
 ### Week 4 Achievements:
 
@@ -41,3 +41,5 @@ pre: " <b> 1.4. </b> "
 * Implemented the principle of least privilege during permission architecture.
 
 * Effectively engineered a protected, multi-user AWS setup to handle fundamental access governance.
+
+---

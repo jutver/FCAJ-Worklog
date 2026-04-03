@@ -18,12 +18,12 @@ pre: " <b> 1.4. </b> "
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| T2 | - Nghiên cứu các nguyên tắc IAM cốt lõi <br> - Khám phá người dùng, nhóm và vai trò IAM | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| T3 | - Học về các chính sách truy cập IAM <br> - Phân tích cấu trúc phân quyền của AWS | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| T4 | - Cấp phát người dùng và nhóm người dùng IAM <br> - Ủy quyền bằng cách sử dụng các chính sách | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| T5 | - Kích hoạt MFA cho các tài khoản IAM <br> - Xem xét các thực tiễn bảo mật tốt nhất một cách tổng thể | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| T6 | - Kiểm tra các vai trò IAM và kiểm soát truy cập lấy vai trò làm trung tâm | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
-| T7 | - **Bài tập thực hành:** Không gian làm việc đa người dùng an toàn: <br>  + Cấp phát nhiều người dùng IAM khác nhau <br>  + Tạo nhóm và liên kết chính sách <br>  + Kích hoạt MFA <br>  + Xác minh quyền truy cập | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 2 | - Nghiên cứu các nguyên tắc IAM cốt lõi <br> - Khám phá người dùng, nhóm và vai trò IAM | 02/02/2026 | 02/02/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Học về các chính sách truy cập IAM <br> - Phân tích cấu trúc phân quyền của AWS | 02/03/2026 | 02/03/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Cấp phát người dùng và nhóm người dùng IAM <br> - Ủy quyền bằng cách sử dụng các chính sách | 02/04/2026 | 02/04/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 5 | - Kích hoạt MFA cho các tài khoản IAM <br> - Xem xét các thực tiễn bảo mật tốt nhất một cách tổng thể | 02/05/2026 | 02/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 6 | - Kiểm tra các vai trò IAM và kiểm soát truy cập lấy vai trò làm trung tâm | 02/06/2026 | 02/06/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 7 | - **Bài tập thực hành:** Không gian làm việc đa người dùng an toàn: <br>  + Cấp phát nhiều người dùng IAM khác nhau <br>  + Tạo nhóm và liên kết chính sách <br>  + Kích hoạt MFA <br>  + Xác minh quyền truy cập | 02/07/2026 | 02/07/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
 
 ### Thành tựu Tuần 4:
 
@@ -41,3 +41,5 @@ pre: " <b> 1.4. </b> "
 * Áp dụng nguyên tắc đặc quyền tối thiểu (least privilege) trong quá trình thiết kế phân quyền.
 
 * Xây dựng hiệu quả một môi trường AWS đa người dùng, được bảo vệ tốt để xử lý quản trị truy cập cơ bản.
+
+---

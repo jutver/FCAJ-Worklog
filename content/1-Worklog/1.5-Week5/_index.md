@@ -18,11 +18,11 @@ pre: " <b> 1.5. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 |----|-----|------------|----------------|------------------|
-| 2 | - Explored the big picture of Serverless Architecture <br> - Examined AWS Lambda and its common use cases | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 3 | - Studied AWS Lambda components (functions, runtimes, and triggers) <br> - Deployed an initial Lambda function | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 4 | - Mastered the basics of API Gateway <br> - Configured a REST API endpoint | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 5 | - Investigated core DynamoDB features <br>&emsp; + Tables <br>&emsp; + Partition keys <br>&emsp; + Sort keys <br> - Executed fundamental CRUD operations | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - **Practical exercise:** <br>&emsp; + Integrate Lambda with API Gateway <br>&emsp; + Link Lambda to DynamoDB <br>&emsp; + Validate the REST API | 02/06/2026 | 02/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 2 | - Explored the big picture of Serverless Architecture <br> - Examined AWS Lambda and its common use cases | 02/09/2026 | 02/09/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Studied AWS Lambda components (functions, runtimes, and triggers) <br> - Deployed an initial Lambda function | 02/10/2026 | 02/10/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Mastered the basics of API Gateway <br> - Configured a REST API endpoint | 02/11/2026 | 02/11/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Investigated core DynamoDB features <br>&emsp; + Tables <br>&emsp; + Partition keys <br>&emsp; + Sort keys <br> - Executed fundamental CRUD operations | 02/12/2026 | 02/12/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - **Practical exercise:** <br>&emsp; + Integrate Lambda with API Gateway <br>&emsp; + Link Lambda to DynamoDB <br>&emsp; + Validate the REST API | 02/13/2026 | 02/13/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ---
 

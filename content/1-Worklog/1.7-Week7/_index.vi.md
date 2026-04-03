@@ -5,45 +5,40 @@ weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
+
 ### Mục tiêu Tuần 7:
 
-* Kết nối và làm quen với các thành viên của **First Cloud Journey**.
-* Hiểu các dịch vụ **AWS** cơ bản, cách sử dụng **console & CLI**.
+* Nắm bắt các nguyên tắc của công nghệ container hóa và các khái niệm cốt lõi của Docker.
+* Khám phá các khả năng của AWS trong việc quản lý khối lượng công việc dựa trên container.
+* Khởi chạy một ứng dụng được container hóa cơ bản sử dụng các giải pháp container của AWS.
 
-### Các nhiệm vụ được thực hiện trong tuần này:
-| Ngày | Nhiệm vụ | Ngày Bắt đầu | Ngày Hoàn thành | Tài liệu Tham khảo |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Học các kiến thức cơ bản về **GuardDuty** với "**Getting Hands on with Amazon GuardDuty - AWS Virtual Workshop**" <br> - Làm quen với **GuardDuty** bằng cách sử dụng **Amazon Q** để tạo một **lab** cơ bản: <br> &emsp; + Tạo **sample finding** qua cài đặt <br> &emsp; + Học giao diện **finding** <br> &emsp; + Kiểm thử **EC2** bằng cách quét cổng **scanme.nmap.org** <br> &emsp; + Mô phỏng **DNS exfiltration** trên **EC2** <br> &emsp; + **GuardDuty** không cảnh báo **findings** từ **VPC Flow Logs** như mong đợi <br> &emsp; + Kích hoạt **GuardDuty findings** thông qua **CloudTrail** bằng cách truy cập **API ListPolicies** bằng thông tin xác thực **root** <br> - Học thêm bằng cách làm các **workshop GuardDuty** <br> - Họp nhóm trực tuyến: Phân công các thành viên nghiên cứu các dịch vụ sẽ được sử dụng trong **workshop** | 20/10/2025 | 20/10/2025| [Getting Hands on with Amazon GuardDuty - AWS Virtual Workshop](https://www.youtube.com/watch?v=eq3_H-aiHhk) <br><br> [GuardDuty Workshop](https://catalog.workshops.aws/security/en-US) |
-| 3   | - Kích hoạt thành công các cảnh báo mẫu **GuardDuty** với nhiều mức độ nghiêm trọng và loại khác nhau qua **CloudShell CLI** => Môi trường kiểm thử dễ dàng hơn <br> - Tạo một danh sách mối đe dọa tùy chỉnh (**custom threat list**) gồm các **IP** và tên miền cho **GuardDuty** qua các lệnh **CloudShell** mặc dù nó không hoạt động | 21/10/2025 | 21/10/2025      ||
-| 4   | - Họp nhóm: <br> &emsp; + Ôn tập nhanh kiến thức **AWS Services** <br> &emsp; + Thảo luận về các thay đổi trong đề xuất <br> - Cập nhật Kiến trúc **AWS**: Thêm **AWS Detective** <br> - Sửa đổi đề xuất: <br> &emsp; + Thêm việc sử dụng **AWS Detective** <br> &emsp; + Thêm kế hoạch cho **CDK** sau khi hoàn thành **workshop** <br> - Đề xuất của cố vấn: <br> &emsp; + Trực quan hóa dữ liệu nhưng không sử dụng **QuickSight**, thay vào đó tạo một **custom-coded dashboard** (Đang nghiên cứu) <br> &emsp; + Lưu **GuardDuty findings** trong **S3 bucket** để phân tích (Đang nghiên cứu) <br> - Cấu hình thành công **EventBridge** để kích hoạt khi có các **GuardDuty findings** cụ thể và: <br> &emsp; + Gửi **SNS emails** đến tất cả các thành viên trong nhóm <br> &emsp; + Kích hoạt một **Lambda script** đơn giản <br> - Xây dựng ý tưởng bổ sung cho **workshop**: Tạo một trang đồ thị dữ liệu đơn giản được **host** trong **S3** và sử dụng **API Gateway** và **Lambda** để kéo dữ liệu **forensics** từ **Amazon Athena** (Đang nghiên cứu)| 22/10/2025 | 22/10/2025      | |
-| 5   | - Thử **AWS Card Clash** với các thành viên trong nhóm: Bất ngờ là công cụ tốt để học về các dịch vụ và chức năng của chúng, vị trí của chúng trong Kiến trúc <br> - Ôn tập Kiến thức **AWS Services** cho Giữa kỳ: Sử dụng **Google Gemini** để tạo các bài **quiz** dựa trên các yêu cầu được cung cấp| 23/10/2025 | 23/10/2025      |[AWS Card Clash](https://aws.amazon.com/training/digital/aws-card-clash/)|
-| 6   | - Cấu hình thành công danh sách mối đe dọa (**threat list**) của **GuardDuty** để kích hoạt **findings** từ các hoạt động của **EC2 Instance** | 24/10/2025 | 26/10/2025 <br> - Môn học ở trường: <br> &emsp; + **KS57**: Hoàn thành **Pháp luật và đạo đức trong công nghệ số**  |[Pháp luật và đạo đức trong công nghệ số](https://www.coursera.org/account/accomplishments/verify/7JELDK2MGGKL) |
+---
 
+### Các công việc đã hoàn thành trong tuần này:
 
-### Thành tựu Tuần 7:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+|-----|------|------------|----------------|-------------------|
+| 2 | - Nghiên cứu các thành phần cốt lõi của Docker (images, containers, volumes, networking) <br> - Đối chiếu container với Máy ảo (Virtual Machines) tiêu chuẩn. <br> - Khám phá các thành phần cơ bản: <br>&emsp; + Docker Images <br>&emsp; + Docker Containers <br>&emsp; + Dockerfiles <br>&emsp; + Volumes <br>&emsp; + Ánh xạ cổng (Port mapping) | 02/23/2026 | 02/23/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Tích lũy kinh nghiệm thực tế trong việc tạo Docker image và thực thi các container cục bộ <br> - Xây dựng và thực thi một container ứng dụng web cơ bản trong môi trường cục bộ. | 02/24/2026 | 02/24/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Khám phá Amazon ECR (Elastic Container Registry) <br> - Cấp phát một kho lưu trữ image riêng tư. <br> - Gắn thẻ và tải các Docker image lên ECR. <br> - Nắm bắt các khái niệm về kiểm soát phiên bản cho image và quản lý kho lưu trữ. | 02/25/2026 | 02/25/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Tìm hiểu các thành phần của Amazon ECS (clusters, task definitions và services) <br> - Phân tích kiến trúc của ECS: <br>&emsp; + Clusters <br>&emsp; + Task Definitions <br>&emsp; + Tasks <br>&emsp; + Services <br> - Phân biệt giữa các chế độ khởi chạy EC2 và Fargate. | 02/26/2026 | 02/26/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | Bài tập thực hành: Triển khai một ứng dụng web dựa trên container lên ECS & ECR | 02/27/2026 | 02/27/2026 | https://cloudjourney.awsstudygroup.com/ |
 
-* Thực hành **GuardDuty**:
+---
 
-  * Hoàn thành "**Getting Hands on with Amazon GuardDuty - AWS Virtual Workshop**" và một **lab** chuyên sâu được tạo bằng **Amazon Q**.
+### Thành tựu Tuần 7
 
-  * Tạo, kiểm thử và kích hoạt thành công nhiều **GuardDuty findings** khác nhau thông qua cài đặt console, hoạt động **EC2** và truy cập **API CloudTrail**.
+* Nắm vững các nguyên tắc nền tảng về container và vòng đời Docker tiêu chuẩn.
+* Tạo và xác thực thành công một Docker image cục bộ.
+* Tải image lên Amazon ECR.
+* Cấp phát một ECS Cluster và khởi chạy một dịch vụ container đang hoạt động.
+* Lưu trữ một ứng dụng web chạy bằng container có đầy đủ chức năng trên AWS.
+* Tích lũy kiến thức thực tế về cách thức hoạt động của việc điều phối container trong các kiến trúc đám mây.
 
-  * Thiết lập một môi trường kiểm thử dễ dàng hơn bằng cách kích hoạt thành công các cảnh báo mẫu với các mức độ nghiêm trọng và loại khác nhau qua **CloudShell CLI**.
+---
 
-  * Cấu hình thành công **GuardDuty threat list** để kích hoạt **findings** từ các hoạt động của **EC2 Instance**.
+### Suy ngẫm
 
-* Phát triển Đề xuất **Workshop** và Kiến trúc:
+Những bài học trong tuần này đã làm sáng tỏ phương pháp tiếp cận hiện đại để đóng gói và khởi chạy các ứng dụng thông qua container. Bằng cách chuyển đổi khỏi việc quản trị máy chủ thủ công, việc điều phối container tạo điều kiện cho các triển khai có khả năng thích ứng cao, hiệu quả và có thể mở rộng trên đám mây. Việc nắm vững các khái niệm này là một bước đệm quan trọng cho các nỗ lực về Kỹ thuật Đám mây (Cloud Engineering) và DevOps trong tương lai.
 
-  * Cập nhật đề xuất và Kiến trúc **AWS** để tích hợp **AWS Detective** cho khả năng điều tra sâu hơn.
-
-  * Thêm kế hoạch triển khai **CDK** sau khi hoàn thành **workshop**.
-
-  * Bắt đầu nghiên cứu các đề xuất của cố vấn, bao gồm **custom-coded data visualization** và lưu **GuardDuty findings** vào **S3** để phân tích.
-
-  * Xây dựng một ý tưởng **workshop** mới về một trang **data graphing** đơn giản được **host** trong **S3** sử dụng **API Gateway** và **Lambda**.
-
-* Tích hợp Dịch vụ và Tự động hóa:
-
-  * Cấu hình thành công **EventBridge** để hành động dựa trên các **GuardDuty findings** cụ thể.
-
-  * Tự động hóa thông báo bằng cách gửi **SNS emails** đến các thành viên trong nhóm và kích hoạt một **Lambda script** dựa trên cảnh báo **GuardDuty**.
+---

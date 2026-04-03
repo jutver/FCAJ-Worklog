@@ -50,3 +50,5 @@ pre: " <b> 1.3. </b> "
   * Một public subnet được thiết kế cho các tài nguyên hướng ra internet
   * Một private subnet được bảo mật cho các hệ thống nội bộ
   * Thiết lập cổng kết nối và định tuyến chính xác
+
+---

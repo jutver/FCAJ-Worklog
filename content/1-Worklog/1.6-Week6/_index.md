@@ -5,41 +5,39 @@ weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
+
 ### Week 6 Objectives:
 
-* Complete and submit proposal
-* Assign tasks for team member to get started on the workshop
+* Grasp the concepts behind AWS Application Integration tools.
+* Discover the mechanics of event-driven architectures in the cloud.
+* Gain hands-on experience constructing basic workflows utilizing messaging and orchestration tools.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Reformatted and refined the worklog, adding information and summaries <br> - Successfully deployed worklog to GitHub Pages | 13/10/2025 | 13/10/2025| |
-| 3 | - Team meeting <br> - Revised workshop proposal: Focused on using GuardDuty for intrusion detection instead of a custom Lambda function due to the need for a large dataset and extensive development time.  <br> - Redrew AWS Architecture: Added GuardDuty replacing CloudWatch Alarm <br> - Wrote a draft of the proposal outlining basic function and providing a rough cost estimate. | 14/10/2025 | 14/10/2025      ||
-| 4 | - Team meeting <br> - Revised workshop proposal: <br> &emsp; + Incorporated the use of EventBridge <br> &emsp; + Recalculated costs by reducing the EC2 instance type and active hours <br> - Updated AWS Architecture: Included the EventBridge icon and connections | 15/10/2025 | 15/10/2025 ||
-| 5   | - Updated AWS Architecture: <br> &emsp; + Rearranged icons for clearer connections. <br> &emsp; + Moved SSM inside of region group <br> &emsp; + Added public subnet group for EC2 Instance <br> - Installed AmazonQ for enhanced proposal analytics <br> - Revised workshop proposal: Recalculated cost using AWS Pricing Calculator <br> - Translated proposal draft into markdown code and successfully deployed it to GitHub Pages <br> - Joined the online seminar 𝗗𝗫<𝗶𝗻𝗔𝗰𝘁𝗶𝗼𝗻> 𝗧𝗮𝗹𝗸#𝟳: Reinventing DevSecOps with AWS Generative AI  | 16/10/2025 | 16/10/2025      ||
-| 6   | - Compiled study materials for midterm exam <br> - School subject: <br> &emsp; + ENW493c: Completed Being a researcher (in Information Science and Technology)   | 17/10/2025 | 17/10/2025      | [Being a researcher (in Information Science and Technology)](https://www.coursera.org/account/accomplishments/verify/JZB2HYOLEGOD) |
+---
 
+### Tasks Completed This Week:
 
-### Week 6 Achievements:
+| Day | Task | Start Date | Completion Date | Reference Material |
+|-----|------|------------|----------------|-------------------|
+| 2 | - Grasped the fundamentals of message queuing. <br> - Differentiated between Standard and FIFO queues. <br> - Executed the sending and retrieving of messages. <br> - Comprehended the concept of decoupling microservices. | 02/16/2026 | 02/16/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Explored the Publish/Subscribe messaging pattern. <br> - Provisioned topics and subscriber endpoints. <br> - Verified the broadcasting of messages to various recipients. | 02/17/2026 | 02/17/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Discovered the mechanisms of routing events. <br> - Formulated rules to initiate actions upon specific events. <br> - Grasped how different AWS tools integrate through event triggers. | 02/18/2026 | 02/18/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 5 | - Mastered the orchestration of complex workflows. <br> - Drafted a rudimentary state machine. <br> - Comprehended the ordering of tasks and mechanisms for catching errors. | 02/19/2026 | 02/19/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | Practical exercise: Constructed a fundamental event-driven setup | 02/20/2026 | 02/20/2026 | https://cloudjourney.awsstudygroup.com/ |
 
+---
 
-* Proposal Refinement:
+### Week 6 Achievements
 
-  * Completed multiple revisions of the workshop proposal, shifting from a custom Lambda function to using GuardDuty for intrusion detection.
+* Comprehended the primary AWS tools for Application Integration.
+* Engineered an introductory event-driven framework leveraging SQS, SNS, and EventBridge.
+* Deployed and ran a Step Functions state machine successfully.
+* Acquired a functional grasp of asynchronous service-to-service communication.
+* Enhanced my capability to architect highly decoupled cloud environments.
 
-  * Successfully recalculated and reduced estimated costs by optimizing the EC2 instance type and active hours.   
+---
 
-  * Translated to markdown, and deployed the proposal draft to GitHub Pages.
+### Reflection
 
+The lessons this week clarified how massive cloud infrastructures handle internal communications via messaging and event systems. I learned that leveraging AWS Application Integration tools facilitates the creation of resilient, adaptable, and highly scalable architectures, moving away from rigid, tightly bound systems.
 
-* Architecture and System Updates:
-
-  * Revised the AWS Architecture diagram, incorporating GuardDuty, EventBridge, and refining icon arrangements and subnet groups for clarity and accuracy.
-
-  * Updated the worklog and successfully deployed the refined worklog to GitHub Pages.
-
-  * Installed AmazonQ.
-
-* Attended the online seminar **'DX<inAction> Talk#7: Reinventing DevSecOps with AWS Generative AI'**.
-
-* Compiled study materials for the midterm exam.
+---
