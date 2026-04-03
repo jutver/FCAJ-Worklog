@@ -6,40 +6,35 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-
 ### Mục tiêu Tuần 8:
 
-* Ôn tập kiến thức **AWS**.
-* Hoàn thành kỳ thi Giữa kỳ **FCJ (FCJ Mid-Term exam)**.
+* Nắm bắt các khái niệm về giám sát hệ thống và quản lý nhật ký trong AWS.
+* Trang bị các kỹ năng sử dụng Amazon CloudWatch, CloudTrail và AWS X-Ray.
+* Tích lũy kinh nghiệm thực tế bằng cách cấu hình một môi trường giám sát nền tảng.
 
-### Các nhiệm vụ được thực hiện trong tuần này:
-| Ngày | Nhiệm vụ | Ngày Bắt đầu | Ngày Hoàn thành | Tài liệu Tham khảo |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Xem lại các video học tập của **FCJ Bootcamp** <br> - Hoàn thành **AWS Cloud Essentials Quiz** <br> - Phân tích sâu các dịch vụ **AWS** đã học trước đây và so sánh các dịch vụ tương tự với nhau <br> - Xem qua một số **AWS Well-Architected Labs** để hiểu rõ hơn về từng trụ cột chính <br> - **Export log streams** thành công sang **S3** <br> - Tạo **trail** trên **CloudTrail** thành công để theo dõi các hoạt động của **S3** và **Lambda** <br> - Kiến trúc **AWS**: <br>&emsp; + Nghiên cứu cách tích hợp **AWS Step Functions** vào kiến trúc **workshop**, thay vì chỉ sử dụng một **Lambda** cho tất cả các hành động **IR** <br>&emsp; + Cân nhắc sử dụng **AWS Kinesis Data Firehose** để **stream log** liên tục đến **S3**| 27/10/2025 | 27/10/2025      | [AWS Cloud Essentials Quiz](https://www.w3schools.com/quiztest/quiztest.php?qtest=AWSCE) <br><br> [AWS Well Architected Lab](https://wellarchitectedlabs.com/) |
-| 3   | - Tạo 500 **AWS Flashcards** cùng với các thành viên trong nhóm để học | 28/10/2025 | 28/10/2025      |  |
-| 4   | - Học cho kỳ thi Giữa kỳ <br> - Môn học ở trường: <br> &emsp; + **ENW493c**: Hoàn thành **Introduction to Research for Essay Writing** | 29/10/2025 | 29/10/2025      | [Introduction to Research for Essay Writing](https://www.coursera.org/account/accomplishments/verify/TMHKPIXOHA6H) |
-| 5   |- Luyện tập sử dụng các ghi chú **AWS Certified Cloud Practitioner** của những người học khác trên mạng: Đã làm 5 bài kiểm tra thực hành <br> - Luyện tập sử dụng các câu hỏi thực hành **AWS Certified Solutions Architect Associate**: Đã luyện tập 40 câu hỏi | 30/10/2025 | 30/10/2025      | [AWS Certified Cloud Practitioner notes](https://github.com/kananinirav/AWS-Certified-Cloud-Practitioner-Notes/tree/master/practice-exam) <br><br> [AWS Certified Solutions Architect Associate practice](https://github.com/Iamrushabhshahh/AWS-Certified-Solutions-Architect-Associate-SAA-C03-Exam-Dump-With-Solution/blob/main/AWS%20Certified%20Solutions%20Architect%20Associate%20SAA-C03.pdf) |
-| 6   | - Tham gia **FCJ Midterm Exam**: Lọt vào **top 10** của phiên thi thứ hai, đạt điểm 320/650 | 31/10/2025 | 31/10/2025 | |
+### Các công việc cần thực hiện trong tuần này:
 
+| Ngày | Công việc                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                      |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------------------- |
+| 2   | - Xem xét các nguyên tắc cơ bản về Giám sát và Ghi nhật ký <br> - Khám phá các nguyên lý về khả năng quan sát (observability) của hệ thống                              | 03/02/2026 | 03/02/2026      |                                         |
+| 3   | - Nghiên cứu các tính năng của Amazon CloudWatch: <br>  + Các chỉ số hiệu suất (Metrics) <br>  + Quản lý nhật ký (Logs) <br>  + Cấu hình cảnh báo (Alarms)                     | 03/03/2026 | 03/03/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 4   | - Các bài tập thực hành CloudWatch: <br>  + Thiết lập các chỉ số tùy chỉnh <br>  + Cấu hình các cảnh báo (mức sử dụng CPU, kiểm tra trạng thái sức khỏe)    | 03/04/2026 | 03/04/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 5   | - Khám phá AWS CloudTrail: <br>  + Xem xét lịch sử sự kiện <br>  + Hiểu rõ các cơ chế ghi nhật ký kiểm toán (audit logging)                             | 03/05/2026 | 03/05/2026      | https://cloudjourney.awsstudygroup.com/ |
+| 6   | - Tìm hiểu AWS X-Ray: <br>  + Triển khai theo dõi phân tán (distributed tracing) <br>  + Đánh giá vòng đời yêu cầu <br> - Bài tập thực hành: Triển khai một thiết lập giám sát | 03/06/2026 | 03/06/2026      | https://cloudjourney.awsstudygroup.com/ |
 
 ### Thành tựu Tuần 8:
 
-* **Kỳ thi Giữa kỳ FCJ**:
- 
-  * Hoàn thành luyện tập chuyên sâu bằng cách làm năm bài kiểm tra thực hành **AWS Certified Cloud Practitioner** và trả lời 40 câu hỏi thực hành **AWS Certified Solutions Architect Associate**.   
-
-  * Cộng tác với các thành viên trong nhóm để tạo 500 **AWS Flashcards** để học tập trung.
- 
-  * Hoàn thành **AWS Cloud Essentials Quiz** và xem lại các video học tập của **FCJ Bootcamp**.
- 
-  * Tham gia thành công **FCJ Midterm Exam** và đạt điểm 320/650.
- 
-  * Ôn tập các dịch vụ **AWS** chính và các **AWS Well-Architected Labs** để hiểu các trụ cột chính.
-
-* **Nghiên cứu Kiến trúc Workshop**:
-  
-  * Nghiên cứu tích hợp kiến trúc của **AWS Step Functions** để điều phối các hành động Ứng phó Sự cố (**Incident Response**), thay thế một hàm **Lambda** đơn lẻ.
- 
-  * Thực hiện thành công các tác vụ **logging** nền tảng bằng cách **export log streams** sang **S3** và tạo **CloudTrail** để theo dõi các hoạt động của **S3** và **Lambda**.
-  
-  * Khám phá việc sử dụng **AWS Kinesis Data Firehose** để **stream log** liên tục, đáng tin cậy đến **S3**.
+* Nắm vững các nguyên tắc giám sát và ghi nhật ký nền tảng của AWS, bao gồm:
+  * Chỉ số hiệu suất
+  * Nhật ký hệ thống
+  * Theo dõi yêu cầu
+* Đạt được sự thành thạo trong việc tận dụng Amazon CloudWatch:
+  * Theo dõi các chỉ số hệ thống quan trọng (ví dụ: tải CPU, trạng thái sức khỏe)
+  * Thiết lập các cảnh báo tự động cho các hành vi bất thường của hệ thống
+* Tiếp thu kiến thức thực tế về AWS CloudTrail:
+  * Kiểm tra các nhật ký sự kiện lịch sử
+  * Giám sát và kiểm toán các tương tác API
+* Nắm bắt cơ chế theo dõi phân tán thông qua AWS X-Ray:
+  * Trực quan hóa quỹ đạo của các yêu cầu trên các vi dịch vụ (microservices)
+  * Xác định chính xác các điểm nghẽn hiệu suất và độ trễ của hệ thống
+* Thiết kế thành công một kiến trúc giám sát gắn kết bằng cách tích hợp nhiều công cụ AWS khác nhau.
