@@ -6,74 +6,116 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# Summary Report: “AI-Driven Development Life Cycle: Reimagining Software Engineering”
+# Summary Report: “AI Agents, Prompt Engineering, and AIoT Projects on AWS”
 
 ### Event Objectives
 
-- Explore the transformative shift in software development driven by generative AI.
-- Introduce the AI-Driven Development Life Cycle (AI-DLC) and its core concepts.
-- Kiro and Amazon Q Developer demonstration
+- Introduce the core idea of AI Agents and how they expand upon standard LLM capabilities.
+- Showcase the ways prompt engineering enhances both the quality and efficiency of AI-generated responses.
+- Display practical AIoT frameworks that seamlessly integrate physical hardware with AWS cloud solutions.
+- Deliver actionable advice for constructing cloud-native applications driven by AI.
 
 ### Speakers
 
-- **Toan Huynh** – Specialist SA, PACE
-- **My Nguyen** - Sr. Prototyping Architect, Amazon Web Services - ASEAN
-
+- **Banh Cam Vinh** – Focus: Constructing AI Agents utilizing Strands
+- **Nguyen Tuan Thinh** – DevOps Engineer at First Cloud AI Journey | Focus: Automated Prompt Engineering
+- **Aiden Dinh** – Operation Engineer at Katalon | Focus: AIoT Initiatives
 
 ### Key Highlights
 
-- Focused on the concept of AI-DLC, a framework where AI orchestrates the development process, including planning, task decomposition, and architectural suggestions, while developers retain ultimate responsibility for validation, decision-making, and oversight
+#### From LLMs to AI Agents
 
-**- AI-DLC Core Concept:** The approach is Human-Centric, with AI acting as a Collaborator to enhance developer capabilities, leading to Accelerated Delivery (cycles measured in hours/days instead of weeks/months).
+- Conventional LLMs → Restricted to generating one-off responses.
+- AI Agents → Capable of complex reasoning, utilizing tools, and making context-aware decisions over multiple steps.
+- Connections to third-party services → Creating highly functional and self-governing systems.
 
-**- AI-DLC Workflow:** It's an iterative loop involving AI Tasks (Create plan, Implement Plan, Seek clarification) and Human Tasks (Provide clarification, Implement Plan), where the AI repeatedly asks clarifying questions and only implements solutions after human validation.
+#### Building AI Agents with Strands
 
-**- AI-DLC Stages:** The lifecycle is broken down into Inception, Construction, and Operation. Each stage builds richer context for the next:
+- **Fundamental elements**: System instructions, tool invocations, and knowledge repositories.
+- **Operational flow**: Data input → logical reasoning → tool application → final output.
+- **Benefits**: Accelerated development cycles when contrasted with manual setup.
 
-+ Inception: Includes building context, elaborating intent with User Stories, and planning with Units of Work.
+#### Prompt Engineering & Optimization
 
-+ Construction: Involves Domain Modeling, code generation and testing, adding architectural components, and deploying with IaC & tests.
+- **Critical components**: Persona, objective, background context, limitations, and desired format.
+- **Recommended approaches**: 
+  - Maintain specificity and structure
+  - Eliminate vague instructions
+  - Distinctly divide prompt segments
+- **Sophisticated methods**: Chain-of-Thought reasoning, RAG (Retrieval-Augmented Generation), and persona-based prompting.
+- **Financial optimization**: High-quality prompts → reduced token consumption → decreased expenses.
 
-+ Operation: Focuses on deploying in production and managing incidents.
+#### AIoT System Architecture
 
-**- Challenges AI-DLC Aims to Solve:**
+- **Application scenario**: Automated Locker Management System.
+- **Physical components**: Raspberry Pi, Arduino boards, RFID readers, environmental sensors, and cameras.
+- **AWS Cloud infrastructure**: 
+  - AWS IoT Core for device connectivity
+  - Lambda for handling events
+  - DynamoDB for persisting data
+  - Rekognition for facial analysis
+- **Objective**: Streamline daily operations and boost overall system performance.
 
-+ Scaling AI development: AI coding tools can fail with complex projects.
+#### Real-world Application Example
 
-+ Limited control: Existing tools make it difficult to collaborate with and manage AI agents.
+- **Plutus Application**: A comprehensive financial tracking and budget management tool.
+- Illustrates the powerful synergy of cloud computing and AI in solving tangible business challenges.
 
-+ Code quality: Maintaining quality control when moving from proof-of-concept to production becomes difficult.
-
-## Deep Dive: Kiro - The AI IDE for Prototype to Production
-
-- Kiro, an AI-first Integrated Development Environment (IDE) that supports the AI-DLC, focusing on Spec-driven development
-
-**- Spec-driven Development:** Kiro turns a high-level prompt (e.g., "I want to create a chat application like Slack") into clear requirements (requirements.md), system design (design.md), and discrete tasks (tasks.md), fundamentally shifting development from "vibe coding" to a structured, traceable process. Developers collaborate with Kiro on these specs, which serve as the source of truth.
-
-**- Agentic Workflows:** Kiro's AI agents implement the spec while keeping the human developer in control, with the key features being:
-
-**+ Implementation Plan:** Kiro generates a detailed Implementation Plan with start tasks, sub-tasks (e.g., "Implement user registration and login endpoints," "Implement JWT middleware"), and links them back to specific requirements for validation.
-
-**+ Agent Hooks:** These delegate tasks to AI agents that trigger on events such as "file save." They autonomously execute in the background based on predefined prompts, helping to scale work by generating documentation, unit tests, or optimizing code performance.
 ### Key Takeaways
-**- AI Ensures Production Readiness:** Kiro creating detailed design documents (like data flow diagrams and API contracts), and generating unit tests before the code is written, ensures that AI-generated code is production-ready and maintainable, not just a quick prototype.
 
-**- Human Control via Artifacts:** Developers maintain control not by writing the bulk of the code, but by validating and refining the artifacts—the requirements, the design, and the task plan—before the AI agents execute the implementation.
+#### AI Architecture Trend
+
+- The AI landscape is shifting from basic prompt-and-response mechanisms to sophisticated agent-driven ecosystems.
+- These agents facilitate deep automation, advanced logic, and seamless system interoperability.
+
+#### Importance of Prompt Design
+
+- Crafting prompts has evolved into a specialized technical discipline, extending far beyond simple text generation.
+- Meticulously designed prompts enhance: 
+  - Precision
+  - Reliability
+  - Financial savings
+
+#### Cloud + AI + IoT Integration
+
+- The AWS platform delivers a comprehensive suite for architecting robust AIoT solutions.
+- Fusing edge hardware with cloud capabilities paves the way for highly scalable architectures.
 
 ### Applying to Work
 
-**- Integrate Amazon Q Developer/Similar Tools:** Integrating AI coding assistants into my academic projects to automate boilerplate code and common tasks to boost productivity.
+- **AI Agents**: 
+  - Implement for automating routine workflows (such as analyzing logs and generating reports).
+  - Construct interactive multi-phase AI functionalities.
 
-**- Focus on High-Value Tasks:** By letting AI automate undifferentiated heavy lifting, I can focus my time on mastering higher-value, creative tasks like Domain Modeling and Architectural Design, which are crucial human-centric activities in the Construction phase.  
+- **Prompt Engineering**: 
+  - Elevate the caliber of AI responses within current toolsets.
+  - Minimize unclear instructions and maximize token efficiency.
+
+- **System Design**: 
+  - Incorporate AIoT architectural concepts into upcoming initiatives.
+  - Unify various AWS offerings into a cohesive platform.
 
 ### Event Experience
 
-Attending the **AI-Driven Development Life Cycle: Reimagining Software Engineering** event provided a fascinating glimpse into the future of software development. It was clear that Generative AI isn't just a coding assistant; it's poised to become a core orchestrator of the entire development process. The session was well-structured, moving from the overarching concept of AI-DLC to specific demonstrations of Amazon Q Developer and Kiro. The demo of Kiro was particularly impactful, showing how a single text prompt can be transformed into a full, executable, and traceable development plan inside the IDE.
+Participating in the **“AI Agents, Prompt Engineering, and AIoT Projects on AWS”** seminar offered a blend of theoretical knowledge and actionable strategies regarding contemporary AI frameworks. Notable highlights were:
+
+#### Learning modern AI concepts
+- Acquired a deeper comprehension of the ways AI Agents surpass the limitations of standard LLMs.
+- Discovered the direct correlation between expert prompt design, output excellence, and overall system efficacy.
+
+#### Understanding real-world system design
+- The showcased AIoT initiative effectively illustrated the integration of physical hardware with AWS cloud environments.
+- Assisted in conceptualizing the end-to-end construction of a system, spanning from edge components to cloud-based analytics.
+
+#### Exposure to practical tools and techniques
+- Investigated the use of Strands for the rapid deployment of AI Agents.
+- Mastered sophisticated prompting methodologies, including Chain-of-Thought and RAG.
+
+#### Connecting theory with practice
+- The presentations logically flowed from foundational theories to hands-on applications.
+- Painted a comprehensive picture of the intersection between AI, cloud computing, and architectural design.
 
 #### Lessons learned
-- The three main challenges with current AI development (scaling, limited control, and code quality) made the structured, human-validated approach of AI-DLC seem highly necessary and well-thought-out.
-
-
-#### Some event photos
-![Group picture during the event](/images/4-Event/TheBois-AIDLC.jpg)
-_Group Picture_
+- Effective AI implementations demand organized workflows rather than merely pinging a model.
+- The caliber of a prompt has immediate consequences on both operational success and financial expenditure.
+- Practical, functional systems rely significantly on the seamless unification of diverse technological elements.

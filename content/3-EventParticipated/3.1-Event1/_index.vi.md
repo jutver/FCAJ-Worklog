@@ -1,82 +1,82 @@
 ---
 title: "Sự kiện 1"
-date: "2005-09-18"
+date: 2026-01-27
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# Báo cáo Tổng kết: “AWS RE:INVENT 2025 RECAP (VIỆT NAM)”
+# Báo cáo Tổng kết: “AWS RE:INVENT 2025 RECAP (VIETNAM)”
 
 ### Chi tiết Sự kiện
-- **Thời gian:** 27/01/2026
+- **Ngày & Giờ:** 27 tháng 1, 2026
 - **Địa điểm:** Văn phòng AWS Việt Nam (Tầng 26 & 36), TP. Hồ Chí Minh
-- **Vai trò Tham dự:** Người tham dự (Thực tập sinh First Cloud Journey)
+- **Vai trò:** Người tham dự (Thực tập sinh Cloud tại FCJ)
 
 ### Mục tiêu Sự kiện
 
-- Cập nhật các đợt phát hành sản phẩm lớn và tin tức từ AWS re:Invent 2025 tại Las Vegas.
-- Khám phá chuyên sâu về AI Tạo sinh (Generative AI), với trọng tâm đặc biệt vào Amazon Bedrock và Agentic AI.
-- Khám phá các cải tiến gần đây về lưu trữ dữ liệu và quản lý hạ tầng, nổi bật là S3 và SageMaker.
-- Kết nối và giao lưu với các chuyên gia công nghệ địa phương cùng các Solution Architect của AWS.
+- Cập nhật các công bố quan trọng nhất từ AWS re:Invent 2025 (Las Vegas).
+- Tìm hiểu sâu về Generative AI, cụ thể là Agentic AI và Amazon Bedrock.
+- Khám phá các tối ưu hóa mới về lưu trữ dữ liệu và hạ tầng (SageMaker, S3).
+- Kết nối với các Kiến trúc sư Giải pháp (Solution Architects) của AWS và cộng đồng công nghệ tại địa phương.
 
 ### Diễn giả
 
-- **Anh Thi** – Solution Architect (Chủ đề: Agents và AI Tạo sinh)
-- **Anh Tùng** – Diễn giả (Chủ đề: Agentic Search và OpenSearch)
-- **Nhiều Account Manager và Solution Architect của AWS**
+- **Mr. Thi** – Solution Architect (Chủ đề: Generative AI & Agents)
+- **Mr. Tung** – Speaker (Chủ đề: OpenSearch & Agentic Search)
+- **Đội ngũ AWS Solution Architects & Quản lý khách hàng**
 
-### Những Điểm Nổi bật Chính
+### Các nội dung nổi bật
 
-#### Phiên 1: AI Tạo sinh & Agents
-- **Các Mô hình Amazon Nova**: Tổng quan về các mô hình nền tảng (foundation models) mạnh mẽ mới nhất.
-- **Bedrock Agents**: Kiểm tra chi tiết về Flows, Điều phối (Orchestration), và các tính năng Guardrails cùng Bộ nhớ (Memory) mới được giới thiệu.
-- **Agentic AI**: Sự chuyển đổi từ các chatbot cơ bản sang các agent độc lập có khả năng xử lý các quy trình phức tạp, đa giai đoạn.
+#### Phiên 1: Generative AI & Agents
+- **Amazon Nova Models**: Giới thiệu các mô hình nền tảng (foundation models) hiệu suất cao mới.
+- **Bedrock Agents**: Đi sâu vào khả năng Điều phối (Orchestration), Luồng công việc (Flows), cùng các tính năng mới về **Bộ nhớ (Memory)** và **Hàng rào bảo vệ (Guardrails)**.
+- **Agentic AI**: Chuyển dịch từ các chatbot đơn giản sang các tác nhân tự hành (autonomous agents) có khả năng thực hiện quy trình công việc đa bước.
 
-#### Phiên 2: SageMaker Unified Studio & Các cập nhật của S3
-- **Unified Studio**: Một môi trường phát triển tích hợp (IDE) hợp nhất các Kỹ sư AI, Nhà khoa học Dữ liệu và Kỹ sư Dữ liệu.
-- **S3 Tables**: Hỗ trợ tích hợp sẵn trên S3 cho định dạng bảng mở Apache Iceberg.
-- **S3 Vector**: Một khả năng mới cho việc lưu trữ vector nguyên bản trên S3, mang lại sự tiết kiệm chi phí đáng kể.
+#### Phiên 2: SageMaker Unified Studio & Cập nhật S3
+- **Unified Studio**: Một môi trường phát triển (IDE) duy nhất giúp kết nối các Kỹ sư Dữ liệu, Nhà khoa học Dữ liệu và Kỹ sư AI.
+- **S3 Tables**: Hỗ trợ định dạng bảng Apache Iceberg nguyên bản ngay trong S3.
+- **S3 Vector**: Tính năng mới cho phép lưu trữ vector trực tiếp trên S3, giúp giảm đáng kể chi phí.
 
 #### Phiên 3 & 4: Tìm kiếm & AI Đa phương thức (Multimodal)
-- **OpenSearch Serverless**: Liên kết Agentic Memory với Model Context Protocol (MCP).
-- **Nova Multimodal Embeddings**: Chuyển đổi nội dung hình ảnh và video thành các vector có thể tìm kiếm được.
-- **Bedrock Data Automation**: Tối ưu hóa việc trích xuất dữ liệu có giá trị từ các tệp đa phương tiện.
+- **OpenSearch Serverless**: Tích hợp với MCP (Model Context Protocol) và Bộ nhớ Tác nhân (Agentic Memory).
+- **Nova Multimodal Embeddings**: Chuyển đổi video và hình ảnh thành vector để phục vụ tìm kiếm.
+- **Bedrock Data Automation**: Tự động trích xuất thông tin chuyên sâu từ các nội dung đa phương tiện.
 
 #### Phiên 5: Hạ tầng AI
-- **SageMaker HyperPod**: Điều phối tinh vi cho các cụm GPU quy mô lớn.
-- **SageMaker MLflow**: Theo dõi và quản lý toàn diện từ đầu đến cuối cho các dự án Học máy (ML).
+- **SageMaker HyperPod**: Quản lý nâng cao cho các cụm GPU quy mô lớn.
+- **SageMaker MLflow**: Quản lý toàn bộ vòng đời cho các dự án Machine Learning.
 
-### Những Bài học Quan trọng
+### Các bài học kinh nghiệm
 
-#### Tương lai thuộc về Agentic
-- **Luồng công việc Tự trị (Autonomous Workflows)**: Sự tiến hóa từ việc tạo prompt (Prompt Engineering) sang thiết kế agent (Agent Engineering). Các agent nhận thức được ngữ cảnh giờ đây có thể thực hiện các tác vụ phức tạp mà không cần sự giám sát liên tục của con người.
-- **Guardrails là thiết yếu**: Sự trỗi dậy của các agent tự trị đòi hỏi các ranh giới bảo mật nghiêm ngặt và chính sách chặt chẽ.
+#### Tương lai thuộc về "Agentic"
+- **Quy trình tự hành**: Sự chuyển dịch từ "Kỹ thuật Prompt" sang "Kỹ thuật Tác nhân" (Agent Engineering). Các tác nhân có bộ nhớ có thể duy trì ngữ cảnh và thực hiện các nhiệm vụ phức tạp mà không cần can thiệp liên tục.
+- **Hàng rào bảo vệ (Guardrails) là thiết yếu**: Khi các tác nhân trở nên tự hành hơn, việc thiết lập các chính sách nghiêm ngặt và hàng rào bảo mật là bắt buộc.
 
-#### Tối ưu hóa Dữ liệu & Điện toán
-- **Hiệu quả Chi phí**: S3 Vector thay đổi mạnh mẽ cục diện cho các dự án bị hạn chế về ngân sách nhưng phụ thuộc vào tìm kiếm vector, chẳng hạn như các ứng dụng RAG.
-- **Cộng tác**: SageMaker Unified Studio đơn giản hóa quá trình chuyển đổi từ chuẩn bị dữ liệu sang huấn luyện mô hình.
+#### Tối ưu hóa Dữ liệu & Tính toán
+- **Hiệu quả chi phí**: S3 Vector là một yếu tố thay đổi cuộc chơi cho các dự án yêu cầu tìm kiếm vector (như RAG) nhưng có ngân sách hạn chế.
+- **Sự cộng tác**: SageMaker Unified Studio giúp tinh giản quy trình làm việc giữa khâu chuẩn bị dữ liệu và huấn luyện mô hình.
 
-### Ứng dụng vào Công việc
+### Ứng dụng vào công việc
 
-- **Tích hợp Dự án (Nền tảng Bảo mật)**:
-    - Đánh giá **Bedrock Agents** để tự động hóa các bài kiểm tra quét lỗ hổng (ví dụ: sử dụng một agent để thực thi quét, phân tích nhật ký và tạo báo cáo).
-- Triển khai **S3 Vector** để lưu trữ các chữ ký lỗ hổng và nhật ký một cách tiết kiệm chi phí trong hạ tầng backend.
-- **Tinh chỉnh Kiến trúc**: Đánh giá việc tích hợp **Cognito** để xử lý xác thực người dùng, lấy cảm hứng từ các cuộc trò chuyện với các Solution Architect.
-- **Thực tiễn tốt nhất**: Áp dụng triết lý "Ưu tiên Serverless" học được trong các phiên thảo luận kết nối.
+- **Tích hợp dự án (Nền tảng Bảo mật)**:
+    - Đánh giá **Bedrock Agents** để tự động hóa quy trình "quét lỗ hổng" (ví dụ: một tác nhân tự chạy quét, phân tích log và dự thảo báo cáo).
+    - Triển khai **S3 Vector** để lưu trữ log và các dấu hiệu lỗ hổng (signatures) một cách hiệu quả cho backend của dự án.
+- **Cải thiện kiến trúc**: Cân nhắc áp dụng **Cognito** để quản lý người dùng dựa trên các thảo luận với đội ngũ SA.
+- **Thực hành tốt nhất (Best Practices)**: Áp dụng tư duy "Ưu tiên Serverless" (Serverless first) học được từ các phiên kết nối.
 
 ### Trải nghiệm Sự kiện
 
-Việc tham gia **“AWS re:Invent 2025 Recap”** tại trụ sở AWS Việt Nam đánh dấu một cột mốc quan trọng trong quá trình thực tập của tôi. Những khoảnh khắc nổi bật bao gồm:
+Tham dự **“AWS re:Invent 2025 Recap”** tại văn phòng AWS Việt Nam là một cột mốc quan trọng trong quá trình thực tập của tôi:
 
-#### Mở rộng Tầm nhìn
-- Các bài thuyết trình đã làm rõ rằng **Agentic AI** chính là làn sóng lớn tiếp theo. Việc quan sát bản demo của Flow Agent đã khơi nguồn những ý tưởng mới cho tính năng báo cáo của dự án chúng tôi.
-- Việc hiểu về **Multimodal RAG** đã mở ra những trường hợp sử dụng tiềm năng vượt ra ngoài văn bản đơn thuần, điều này sẽ rất quan trọng cho các giai đoạn sau của Nền tảng Bảo mật của chúng tôi khi cần đánh giá ảnh chụp màn hình.
+#### Mở rộng tầm nhìn
+- Các phiên thảo luận đã làm rõ rằng **Agentic AI** chính là tương lai gần. Việc xem demo về Flow Agent đã gợi cảm hứng cho các tính năng báo cáo trong dự án của chúng tôi.
+- Hiểu về **Multimodal RAG** đã giúp tôi nhận ra các khả năng vượt xa việc xử lý văn bản thuần túy—điều này rất cần thiết cho các giai đoạn tương lai của Nền tảng Bảo mật khi cần phân tích ảnh chụp màn hình.
 
-#### Xác thực Kỹ thuật
-- Việc ra mắt **S3 Vector** đã xác nhận nhu cầu của nhóm chúng tôi về một phương pháp lưu trữ tiết kiệm dành riêng cho việc phân tích nhật ký.
-- Việc trao đổi với **Anh Thi** và các Solution Architect khác đã giải tỏa sự nhầm lẫn về các tiêu chuẩn **Serverless** và **IAM Policies** mà tôi đã gặp khó khăn trong Tuần 3.
+#### Xác thực kỹ thuật
+- Sự ra đời của **S3 Vector** đã xác nhận nhu cầu của nhóm chúng tôi về một giải pháp lưu trữ chi phí thấp cho việc phân tích log.
+- Kết nối với **Mr. Thi** và các SA khác đã giúp làm rõ những thắc mắc về **Chính sách IAM** và các thực hành **Serverless** tốt nhất mà tôi từng gặp khó khăn trong Tuần 3.
 
 #### Cộng đồng & Kết nối
-- Môi trường tại Văn phòng AWS rất sôi động, tràn ngập các nhà phát triển và kỹ sư trao đổi về các chiến lược giải quyết vấn đề thực tế.
-- Tôi đã tận dụng cơ hội này để trò chuyện về **dự án nhóm “TheBois”** với các chuyên gia dày dạn kinh nghiệm, thu được những góc nhìn quan trọng về thiết kế kiến trúc của chúng tôi.
+- Không khí tại văn phòng AWS rất năng động với các nhà phát triển chia sẻ về những thách thức thực tế.
+- Tôi đã có cơ hội thảo luận về dự án nhóm **“TheBois”** với các chuyên gia trong ngành và nhận được những phản hồi giá trị về kiến trúc đề xuất.

@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-
-
-Trong quá trình thực tập, mình đã tham gia bảy sự kiện. Mỗi sự kiện đều là một trải nghiệm đáng nhớ, mang lại nhiều kiến thức mới, thú vị và hữu ích, cùng với những phần quà và khoảnh khắc tuyệt vời.
-
 ### [Event 1](3.1-Event1/)
 &emsp;**Tên sự kiện:** Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders: Gen AI and Data track
 
