@@ -1,6 +1,6 @@
 ---
 title: "Nhật ký Công việc Tuần 1"
-date: "2025-09-09"
+date: "2026-01-12"
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
