@@ -1,7 +1,7 @@
 ---
 title : "Prerequisites"
 date: "2000-01-01" 
-weight : 1 
+weight : 02 
 chapter : false
 pre : " <b> 4.2. </b> "
 ---
