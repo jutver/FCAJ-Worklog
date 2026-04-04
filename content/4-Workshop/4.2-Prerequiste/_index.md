@@ -6,27 +6,73 @@ chapter : false
 pre : " <b> 4.2. </b> "
 ---
 
-## Required Access and Information
+#### Requirements
 
-Before proceeding with the setup of the **Automated AWS Incident Response and Forensics System**, ensure you have gathered the required access credentials and information below.
+Before starting the workshop, make sure you have the following in place:
 
-### 🔑 Access & Identifiers
+- An **AWS account** with console access
+- An **IAM user** with sufficient permissions (see below)
+- A **GitHub repository** containing the Voice Summarizer frontend code (for the Amplify deployment step)
+- Basic familiarity with the AWS Management Console
 
-* **AWS Account with Administrative Access**
-    * You need full administrative permissions to create resources across multiple AWS services.
-    * Access to the **AWS Management Console**.
-* **Your AWS Account ID**
-    * Format: 12-digit number (e.g., `123456789012`).
-    * **Placeholder**: Replace `ACCOUNT_ID` throughout the guide.
-* **Target AWS Region**
-    * Choose the region where you'll deploy the system (e.g., `us-east-1`).
-    * **Placeholder**: Replace `REGION` throughout the guide.
-* **VPC ID**
-    * A VPC with at least one subnet is required for VPC Flow Logs.
-    * **Placeholder**: Replace `YOUR_VPC_ID` in the guide.
-* **Amazon SES Verified Email Address**
-    * Required for sending and recieving email alerts. Verify this address in the **SES Console**.
-    * **Placeholder**: Replace `YOUR_VERIFIED_EMAIL@example.com`.
-* **Slack Webhook URL (Optional)**
-    * If you want Slack notifications, obtain a webhook URL from your Slack workspace.
-    * **Placeholder**: Replace `YOUR_SLACK_WEBHOOK_URL`.
+#### IAM Permissions
+
+Your IAM user must have permissions to create and manage all services used in this workshop. Attach the following policy to your user or role before proceeding.
+The policy must cover the following services and actions:
+
+| Service | Required Actions |
+|---|---|
+| **EC2** | Create/delete VPC, subnets, security groups, route tables, internet gateways, NAT gateways, endpoints, EC2 instances |
+| **S3** | Create/delete buckets, put/get/delete objects, manage bucket policies and public access settings |
+| **DynamoDB** | Create/delete tables, read/write items |
+| **Lambda** | Create/delete functions, add/remove triggers, invoke functions |
+| **IAM** | Create/delete roles and instance profiles, attach policies, pass roles |
+| **Cognito** | Create/delete user pools and app clients |
+| **Amplify** | Create/delete apps, branches, and deployments |
+| **Transcribe** | Start and describe transcription jobs |
+| **CloudWatch / Logs** | Create log groups, put retention policies |
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VoiceSummarizerWorkshop",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:*",
+        "s3:*",
+        "dynamodb:*",
+        "lambda:*",
+        "iam:CreateRole",
+        "iam:DeleteRole",
+        "iam:AttachRolePolicy",
+        "iam:DetachRolePolicy",
+        "iam:PutRolePolicy",
+        "iam:DeleteRolePolicy",
+        "iam:GetRole",
+        "iam:PassRole",
+        "iam:CreateInstanceProfile",
+        "iam:DeleteInstanceProfile",
+        "iam:AddRoleToInstanceProfile",
+        "iam:RemoveRoleFromInstanceProfile",
+        "cognito-idp:*",
+        "amplify:*",
+        "transcribe:*",
+        "logs:CreateLogGroup",
+        "logs:DeleteLogGroup",
+        "logs:DescribeLogGroups",
+        "logs:PutRetentionPolicy",
+        "cloudwatch:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+
+#### Region
+
+{{% notice info %}}
+All resources in this workshop must be created in **ap-southeast-1 (Singapore)**.
+{{% /notice %}}
