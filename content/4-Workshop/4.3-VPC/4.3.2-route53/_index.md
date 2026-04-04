@@ -93,17 +93,12 @@ Click **Create records**.
 ![Create Alias A Record to ALB](/images/4-Workshop/Route53/B5_Create_Alias_Pointing_To_ALB.png)
 
 {{% notice info %}}
-**Two records for two endpoints:** If you want to serve both the frontend and the API from the same domain using subdomains, create two alias records:
-- Apex or `www` subdomain → Amplify App domain (find this in Amplify Console → App settings → Domain management)
-- `api` subdomain → ALB DNS name
-
-For this workshop a single alias record pointing to the ALB is sufficient if the frontend is accessed directly via the Amplify default URL.
+**Two records for two endpoints:** If you want to serve both the frontend and the API from the same domain using subdomains, create two alias records:<br>• Apex or `www` subdomain → Amplify App domain (find this in Amplify Console → App settings → Domain management)<br>• `api` subdomain → ALB DNS name<br>For this workshop a single alias record pointing to the ALB is sufficient if the frontend is accessed directly via the Amplify default URL.
 {{% /notice %}}
 
 ---
 
 {{% notice tip %}}
-✅ Route 53 is configured. Your domain now resolves through Route 53, and traffic to your custom domain is routed to the Application Load Balancer.
-
+✅ Route 53 is configured. Your domain now resolves through Route 53, and traffic to your custom domain is routed to the Application Load Balancer.<br>
 **To verify:** Run `nslookup yourdomain.com` or `dig yourdomain.com` from your terminal. The answer should return the ALB's IP addresses once propagation is complete.
 {{% /notice %}}
