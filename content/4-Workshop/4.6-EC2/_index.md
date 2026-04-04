@@ -1,7 +1,7 @@
 ---
 title: "EC2 Setup"
 date: 2026-04-04
-weight: 06
+weight: 6
 chapter: false
 pre: " <b> 4.6. </b> "
 ---

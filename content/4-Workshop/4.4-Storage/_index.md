@@ -1,7 +1,7 @@
 ---
 title : "Storage Setup"
 date: "2000-01-01"
-weight : 04
+weight: 4
 chapter : false
 pre : " <b> 4.4. </b> "
 ---

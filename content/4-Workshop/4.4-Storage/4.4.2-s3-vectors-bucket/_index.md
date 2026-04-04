@@ -1,7 +1,7 @@
 ---
 title : "S3 Vectors Bucket"
 date: "2000-01-01"
-weight : 02
+weight: 2
 chapter : false
 pre : " <b> 4.4.2. </b> "
 ---

@@ -1,7 +1,7 @@
 ---
 title : "Tạo Kinesis Data Firehose"
 date: "2000-01-01"
-weight : 01
+weight: 1
 chapter : false
 pre : " <b> 4.4.1. </b> "
 ---

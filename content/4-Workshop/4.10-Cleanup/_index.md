@@ -6,92 +6,187 @@ chapter: false
 pre: " <b> 4.10. </b> "
 ---
 
-AWS Amplify hosts and continuously deploys the React + Vite frontend directly from your GitHub repository. Every push to the configured branch triggers an automatic rebuild and deployment. Amplify handles HTTPS, CDN distribution, and custom domain configuration.
+Congratulations on completing the Voice Summarizer workshop! 🎉
 
-**Before starting this section, make sure:**
-- The `aws-config.js` file with the Cognito Pool ID and Client ID has been committed to your repo (Section 8, Step 7)
-- The ALB DNS name has been set as the API base URL in `src/services/apiClient.js`
+In this workshop you built a complete AI-powered audio intelligence platform on AWS, including:
+- A **VPC** with public/private subnets, Internet Gateway, NAT Gateway, and Gateway Endpoints
+- **Three S3 buckets** for audio, transcripts, and vector embeddings
+- **Two DynamoDB tables** for recording status and user data
+- **Two Lambda functions** for transcription triggering and user provisioning
+- An **EC2 instance** running FastAPI, Celery, and Redis
+- An **Application Load Balancer** routing traffic to the private subnet
+- A **Cognito User Pool** with Post Confirmation trigger
+- An **Amplify** deployment serving the React frontend from GitHub
 
----
+To avoid ongoing charges, delete all resources in the order below. **Always delete resources before the networking components they depend on.**
 
-#### Step 1 — Open AWS Amplify and Connect to GitHub
-
-Navigate to **AWS Amplify** in the AWS Console. Click **Create new app**, then select **GitHub** as the source.
-
-Authorize Amplify to access your GitHub account if prompted.
-
-![Open Amplify and Choose GitHub](/images/workshop/9-amplify/amplify-01-github.png)
-
----
-
-#### Step 2 — Select the Repository
-
-From the repository list, select the repository containing the Voice Summarizer frontend code (`voice-summarizer` or equivalent). If the repository does not appear, click **View GitHub permissions** and grant Amplify access to the correct repository.
-
-![Select Repository](/images/workshop/9-amplify/amplify-02-select-repo.png)
-
----
-
-#### Step 3 — Choose the Branch and Root Directory
-
-- **Branch**: `main` (or your deployment branch)
-- **App root directory**: `api/fe` *(the React frontend lives inside the `api/fe/` subdirectory of the monorepo)*
-
-Amplify will auto-detect the Vite build settings. Confirm the build command and output directory:
-
-| Setting | Value |
-|---|---|
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Node.js version | 18 or 20 |
-
-![Choose Branch and Directory](/images/workshop/9-amplify/amplify-03-branch-directory.png)
-
----
-
-#### Step 4 — Review and Create the Amplify App
-
-Review all settings. Add any required **environment variables** your frontend build needs (e.g. `VITE_API_URL` pointing to the ALB DNS name if you use it at build time).
-
-Click **Save and deploy**.
-
-Amplify will provision a build environment, clone the repository, run the build, and deploy the output to its CDN. This typically takes 2–4 minutes.
-
-![Create Amplify App](/images/workshop/9-amplify/amplify-04-create.png)
-
----
-
-#### Step 5 — Wait for Deployment and Open the Domain
-
-Once the deployment pipeline shows all green checkmarks (Provision → Build → Deploy → Verify), click on the **Domain** link to open the live application.
-
-The default domain format is:
-```
-https://main.<app-id>.amplifyapp.com
-```
-
-![Open Amplify Domain](/images/workshop/9-amplify/amplify-05-domain.png)
-
----
-
-#### Verify the Full Stack Is Working
-
-Open the live URL and test the following:
-
-1. **Registration** — Create a new user account. You should receive a verification email from Cognito.
-2. **Email verification** — Click the verification link. The `user_creation_db` Lambda should fire and create a DynamoDB record in the `User` table.
-3. **Login** — Log in with the new account. A JWT token should be issued by Cognito and stored in the browser session.
-4. **Audio upload** — Upload a short audio file. The file should land in `s3://one4allthing/raw_audio/`, trigger the `audio2text` Lambda, start a Transcribe job, and eventually show a status of `completed` in the dashboard.
-5. **Q&A** — Open the completed recording and ask a question. The FastAPI server should return a grounded answer.
-
-{{% notice info %}}
-**Custom domain:** To use a custom domain instead of the default `.amplifyapp.com` URL, go to **Amplify → App settings → Domain management** and add your domain. Amplify will automatically provision an SSL certificate via ACM.
+{{% notice warning %}}
+⚠️ The **NAT Gateway** (~$43/month) and **ALB** (~$18/month) and **EC2** (~$15/month) are the largest cost drivers. If you are pausing rather than finishing the workshop, at minimum **stop the EC2 instance**, **delete the NAT Gateway**, and **delete the ALB** to halt the majority of charges.
 {{% /notice %}}
 
 ---
 
-{{% notice tip %}}
-✅ The Voice Summarizer platform is fully deployed! The complete data flow is now live:
+### Step 1 — Delete the Amplify App
 
-User → Amplify → Cognito (auth) → ALB → EC2 (FastAPI + Celery) → S3 / DynamoDB / Transcribe / Lambda → LLM API
+Navigate to **AWS Amplify**. Select `voice-summarizer` and click **Actions → Delete app**. Confirm deletion.
+
+This removes the CDN distribution and all build artifacts.
+
+---
+
+### Step 2 — Delete the Cognito User Pool
+
+Navigate to **Amazon Cognito → User pools**. Select `voice-summarizer-user-pool`. Click **Actions → Delete**. Type the pool name to confirm and click **Delete**.
+
+{{% notice info %}}
+Deleting the User Pool permanently removes all user accounts. There is no undo.
+{{% /notice %}}
+
+---
+
+### Step 3 — Delete Lambda Functions
+
+Navigate to **Lambda → Functions**. Select each function and click **Actions → Delete**:
+
+- `audio2text`
+- `user_creation_db`
+
+Confirm deletion for each.
+
+---
+
+### Step 4 — Delete the Application Load Balancer
+
+Navigate to **EC2 → Load Balancing → Load Balancers**. Select `voice-summarizer-alb`, click **Actions → Delete load balancer**. Confirm.
+
+Then navigate to **Target Groups**, select `voice-summarizer-tg`, and click **Actions → Delete**.
+
+---
+
+### Step 5 — Terminate the EC2 Instance
+
+Navigate to **EC2 → Instances**. Select `voice-summarizer-backend`. Click **Instance state → Terminate instance**. Confirm termination.
+
+Wait for the instance state to change to **Terminated** before proceeding with VPC cleanup.
+
+---
+
+### Step 6 — Empty and Delete the S3 Buckets
+
+S3 buckets must be emptied before they can be deleted.
+
+Navigate to **S3**. For each of the three buckets (`one4allthing`, and your vectors bucket):
+
+1. Click the bucket name
+2. Click **Empty** — type `permanently delete` and confirm
+3. After emptying, click **Delete** — type the bucket name and confirm
+
+Repeat for all three buckets.
+
+---
+
+### Step 7 — Delete the DynamoDB Tables
+
+Navigate to **DynamoDB → Tables**. Select each table and click **Delete**:
+
+- `VoiceSummarizerHistory`
+- `User`
+
+Confirm deletion for each. Note that DynamoDB on-demand tables delete quickly.
+
+---
+
+### Step 8 — Delete the NAT Gateway
+
+Navigate to **VPC → NAT Gateways**. Select `voice-summarizer-nat`. Click **Actions → Delete NAT gateway**. Confirm.
+
+{{% notice info %}}
+NAT Gateways take a few minutes to fully delete. Wait until the status shows **Deleted** before releasing the associated Elastic IP.
+{{% /notice %}}
+
+After deletion, navigate to **VPC → Elastic IPs**. Select the Elastic IP that was allocated for the NAT Gateway (status will show **Available**). Click **Actions → Release Elastic IP address**. Confirm.
+
+---
+
+### Step 9 — Delete the VPC Endpoints
+
+Navigate to **VPC → Endpoints**. Select both endpoints:
+
+- `voice-summarizer-s3-endpoint`
+- `voice-summarizer-dynamodb-endpoint`
+
+Click **Actions → Delete VPC endpoints**. Confirm.
+
+---
+
+### Step 10 — Delete the Internet Gateway
+
+Navigate to **VPC → Internet Gateways**. Select `voice-summarizer-igw`.
+
+First, **detach it from the VPC**: Click **Actions → Detach from VPC**, confirm.  
+Then, **delete it**: Click **Actions → Delete internet gateway**, confirm.
+
+---
+
+### Step 11 — Delete Route Tables
+
+Navigate to **VPC → Route Tables**. Select `voice-summarizer-private-rt`. Click **Actions → Delete route table**. Confirm.
+
+The main route table associated with the VPC will be deleted automatically when the VPC is deleted.
+
+---
+
+### Step 12 — Delete Subnets
+
+Navigate to **VPC → Subnets**. Select each subnet and click **Actions → Delete subnet**:
+
+- `voice-summarizer-public-subnet`
+- `voice-summarizer-private-subnet`
+
+---
+
+### Step 13 — Delete the Security Group
+
+Navigate to **VPC → Security Groups**. Select `voice-summarizer-ec2-sg`. Click **Actions → Delete security groups**. Confirm.
+
+---
+
+### Step 14 — Delete the VPC
+
+Navigate to **VPC → Your VPCs**. Select `voice-summarizer-vpc`. Click **Actions → Delete VPC**. Confirm.
+
+---
+
+### Step 15 — Delete IAM Roles
+
+Navigate to **IAM → Roles**. Search for and delete the execution roles created for:
+
+- The `audio2text` Lambda
+- The `user_creation_db` Lambda
+- The EC2 instance profile
+
+---
+
+### Verify No Remaining Charges
+
+After completing all steps above, verify in the AWS Console:
+
+| Service | Expected Status |
+|---|---|
+| EC2 Instances | No running instances |
+| NAT Gateways | No gateways (state: Deleted) |
+| Load Balancers | No active load balancers |
+| Elastic IPs | No allocated IPs |
+| S3 Buckets | Workshop buckets deleted |
+| DynamoDB Tables | Workshop tables deleted |
+| Lambda Functions | Workshop functions deleted |
+| Cognito User Pools | Workshop pool deleted |
+| Amplify Apps | Workshop app deleted |
+
+You can also check **AWS Cost Explorer** or **AWS Budgets** for any residual charges from services that bill in arrears.
+
+---
+
+{{% notice tip %}}
+✅ All workshop resources have been cleaned up. Thank you for completing the Voice Summarizer AWS Workshop!
 {{% /notice %}}

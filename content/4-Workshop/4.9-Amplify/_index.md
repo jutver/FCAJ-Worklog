@@ -1,7 +1,7 @@
 ---
 title: "Amplify Deployment"
 date: 2026-04-04
-weight: 09
+weight: 9
 chapter: false
 pre: " <b> 4.9. </b> "
 ---
