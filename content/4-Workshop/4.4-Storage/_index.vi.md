@@ -1,5 +1,5 @@
 ---
-title : "Thiết lập xử lý"
+title : "Thiết lập lưu trữ"
 date: "2000-01-01"
 weight: 4
 chapter : false

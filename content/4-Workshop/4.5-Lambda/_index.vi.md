@@ -183,7 +183,7 @@ Cấu hình trigger:
 
 ---
 
-#### Bước 4 — Thêm Quyền IAM vào Role của Lambda
+#### Thêm Quyền IAM vào Role của Lambda
 
 Điều hướng đến tab **Configuration → Permissions** (Cấu hình → Quyền) của Lambda. Nhấp vào tên execution role để mở nó trong IAM. Thêm inline policy (chính sách nội tuyến) sau để hàm có thể đọc từ S3 và khởi chạy các công việc Transcribe:
 
