@@ -43,15 +43,6 @@ pre: " <b> 1.12. </b> "
   * Xây dựng các quy trình sao lưu và khôi phục
   * Thiết kế các thiết lập có tính sẵn sàng cao
   * Xây dựng các khuôn khổ chịu lỗi
-* Hoàn thiện thiết kế kiến trúc và phân tích cho các dự án thực tế:
-  * **Nền tảng Thương mại Điện tử**
-    * Xây dựng cơ sở hạ tầng đa tầng
-    * Tích hợp Auto Scaling và Load Balancing
-    * Dự báo chi phí vận hành ở mức xấp xỉ **$45/tháng**
-  * **Đường ống Phân tích Dữ liệu**
-    * Xây dựng một đường ống dữ liệu tận dụng **S3, Glue, Athena và QuickSight**
-    * Hiểu rõ luồng đầu cuối của việc thu thập, chuyển đổi, truy vấn và trực quan hóa dữ liệu
-    * Dự báo chi phí vận hành ở mức xấp xỉ **$25/tháng**
 * Nâng cao khả năng đánh giá mức độ sẵn sàng của một kiến trúc AWS cho các **triển khai cấp sản xuất (production-grade)**.
 
 ---
