@@ -19,7 +19,7 @@ The EC2 backend reads and writes to this bucket directly via the VPC Gateway End
 
 Navigate to **S3** in the AWS Console. Click **Create bucket**.
 
-![Click Create Vectors Bucket](/images/workshop/4-storage/s3-vectors-01-create-bucket.png)
+![Click Create Vectors Bucket](/images/4-Workshop/S3_Vector/B1_Click_Create_Vector_Bucket.png)
 
 ---
 
@@ -34,7 +34,7 @@ Note the bucket name — you will need to configure it as an environment variabl
 
 Click **Create bucket**.
 
-![Enter Name and Create](/images/workshop/4-storage/s3-vectors-02-enter-name-create.png)
+![Enter Name and Create](/images/4-Workshop/S3_Vector/B2_Create_Bucket.png)
 
 ---
 
