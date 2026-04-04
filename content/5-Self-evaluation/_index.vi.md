@@ -1,6 +1,6 @@
 ---
 title: "Tự đánh giá"
-date: "2000-01-01"
+date: "2026-04-04"
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
