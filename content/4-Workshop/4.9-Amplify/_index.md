@@ -20,7 +20,7 @@ Navigate to **AWS Amplify** in the AWS Console. Click **Create new app**, then s
 
 Authorize Amplify to access your GitHub account if prompted.
 
-![Open Amplify and Choose GitHub](/images/workshop/9-amplify/amplify-01-github.png)
+![Open Amplify and Choose GitHub](/images/4-Workshop/Amplify/B1_Open_Amplify_Choose_Github.png)
 
 ---
 
@@ -28,7 +28,7 @@ Authorize Amplify to access your GitHub account if prompted.
 
 From the repository list, select the repository containing the Voice Summarizer frontend code (`voice-summarizer` or equivalent). If the repository does not appear, click **View GitHub permissions** and grant Amplify access to the correct repository.
 
-![Select Repository](/images/workshop/9-amplify/amplify-02-select-repo.png)
+![Select Repository](/images/4-Workshop/Amplify/B2_Select_Repo.png)
 
 ---
 
@@ -45,7 +45,7 @@ Amplify will auto-detect the Vite build settings. Confirm the build command and 
 | Build output directory | `dist` |
 | Node.js version | 18 or 20 |
 
-![Choose Branch and Directory](/images/workshop/9-amplify/amplify-03-branch-directory.png)
+![Choose Branch and Directory](/images/4-Workshop/Amplify/B3_Choose_Branch_And_Root_Dir.png)
 
 ---
 
@@ -57,7 +57,7 @@ Click **Save and deploy**.
 
 Amplify will provision a build environment, clone the repository, run the build, and deploy the output to its CDN. This typically takes 2–4 minutes.
 
-![Create Amplify App](/images/workshop/9-amplify/amplify-04-create.png)
+![Create Amplify App](/images/4-Workshop/Amplify/B4_Review_And_Create.png)
 
 ---
 
@@ -70,7 +70,7 @@ The default domain format is:
 https://main.<app-id>.amplifyapp.com
 ```
 
-![Open Amplify Domain](/images/workshop/9-amplify/amplify-05-domain.png)
+![Open Amplify Domain](/images/4-Workshop/Amplify/B5_Wait_For_Deployment.png)
 
 ---
 
@@ -92,6 +92,5 @@ Open the live URL and test the following:
 
 {{% notice tip %}}
 ✅ The Voice Summarizer platform is fully deployed! The complete data flow is now live:
-
 User → Amplify → Cognito (auth) → ALB → EC2 (FastAPI + Celery) → S3 / DynamoDB / Transcribe / Lambda → LLM API
 {{% /notice %}}

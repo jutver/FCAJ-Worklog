@@ -19,7 +19,7 @@ By the end of this section you will have:
 
 Navigate to **Amazon Cognito** in the AWS Console. Click **User pools** in the left sidebar, then click **Create user pool**.
 
-![Open Cognito User Pools](/images/workshop/8-cognito/cognito-01-user-pools.png)
+![Open Cognito User Pools](/images/4-Workshop/Cognito/B1_Navigate_Cognito_Userpool.png)
 
 ---
 
@@ -27,7 +27,7 @@ Navigate to **Amazon Cognito** in the AWS Console. Click **User pools** in the l
 
 On the first screen, select **Single-page application (SPA)** as the application type. This configures the app client without a client secret, which is required for browser-based authentication flows.
 
-![Choose SPA](/images/workshop/8-cognito/cognito-02-spa.png)
+![Choose SPA](/images/4-Workshop/Cognito/B2_Choose_SPA.png)
 
 ---
 
@@ -41,7 +41,7 @@ Configure the sign-in and registration options:
 - **MFA**: Optional (leave off for the workshop)
 - **User account recovery**: Email
 
-![Configure Email and Self-Registration](/images/workshop/8-cognito/cognito-03-email-selfregistration.png)
+![Configure Email and Self-Registration](/images/4-Workshop/Cognito/B3_Configure_Auth.png)
 
 ---
 
@@ -51,7 +51,7 @@ Review all settings. Scroll down and click **Create user pool**.
 
 - **User pool name**: `voice-summarizer-user-pool`
 
-![Create User Pool](/images/workshop/8-cognito/cognito-04-create-user-pool.png)
+![Create User Pool](/images/4-Workshop/Cognito/B4_Review_Configuration.png)
 
 ---
 
@@ -61,7 +61,7 @@ After creation, click on `voice-summarizer-user-pool` to open its detail page. A
 
 You will paste this value into the frontend config file in Step 7.
 
-![Copy User Pool ID](/images/workshop/8-cognito/cognito-05-copy-pool-id.png)
+![Copy User Pool ID](/images/4-Workshop/Cognito/B5_Copy_Created_UPID.png)
 
 ---
 
@@ -71,52 +71,16 @@ In the left sidebar (inside the User Pool detail view) click **App clients**. Cl
 
 You will paste this value alongside the Pool ID in the frontend config file.
 
-![Copy Client ID](/images/workshop/8-cognito/cognito-06-copy-client-id.png)
+![Copy Client ID](/images/4-Workshop/Cognito/B6_Copy_ClientID.png)
 
 ---
 
-#### Step 7 — Create the Frontend Config File
-
-In your frontend repository, open or create the file `src/aws-config.js` (the path matches the existing `aws-config.js` in the project). Populate it with the values you just copied:
-
-```javascript
-const awsConfig = {
-  userPoolId: "ap-southeast-1_XXXXXXXXX",   // ← Paste your User Pool ID
-  userPoolClientId: "XXXXXXXXXXXXXXXXXXXXXXXXXX", // ← Paste your Client ID
-  region: "ap-southeast-1",
-};
-
-export default awsConfig;
-```
-
-Commit and push this file to GitHub. The Amplify deployment in Section 9 will pick it up automatically.
-
-![Create Config File](/images/workshop/8-cognito/cognito-07-config-file.png)
-
----
-
-#### Step 8 — Add the Post Confirmation Lambda Trigger
-
-Still in the User Pool detail view, click **User pool properties** in the left sidebar. Scroll to **Lambda triggers** and click **Add Lambda trigger**.
-
-- **Trigger type**: Authentication
-- **Authentication event**: **Post confirmation trigger**
-- **Lambda function**: `user_creation_db`
-
-Click **Add Lambda trigger**.
-
-![Add Post Confirmation Trigger](/images/workshop/8-cognito/cognito-08-lambda-trigger.png)
-
-This wires the `user_creation_db` Lambda to fire automatically every time a new user successfully verifies their email, creating their DynamoDB record without any additional backend logic.
-
----
-
-{{% notice tip %}}
-✅ Cognito is fully configured:
+✅ Cognito is fully configured.
 - Users can self-register with their email address
 - Email verification is required before access is granted
 - On successful verification, the `user_creation_db` Lambda provisions a DynamoDB record automatically
 - The frontend `aws-config.js` has the Pool ID and Client ID needed for the Cognito JS SDK
 
+{{% notice tip %}}
 Keep the **User Pool ID** and **Client ID** handy — you will verify they are correct during the Amplify deployment test.
 {{% /notice %}}

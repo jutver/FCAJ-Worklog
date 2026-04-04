@@ -29,7 +29,7 @@ Configure the target group:
 - **Health check protocol**: HTTP
 - **Health check path**: `/` *(or `/health` if your FastAPI app has a health endpoint)*
 
-![Create Target Group Settings](/images/workshop/7-alb/alb-01-target-group-settings.png)
+![Create Target Group Settings](/images/4-Workshop/ALB/B1_Create_TargetGroup.png)
 
 ---
 
@@ -37,7 +37,7 @@ Configure the target group:
 
 Scroll down to **Register targets**. Select the `voice-summarizer-backend` EC2 instance and click **Include as pending below**.
 
-![Select EC2 Instance](/images/workshop/7-alb/alb-02-register-ec2.png)
+![Select EC2 Instance](/images/4-Workshop/ALB/B2_Register_EC2_Ins.png)
 
 ---
 
@@ -45,7 +45,7 @@ Scroll down to **Register targets**. Select the `voice-summarizer-backend` EC2 i
 
 Review all settings — confirm the target is the correct EC2 instance on port 8000 and the VPC is correct.
 
-![Review Target Group](/images/workshop/7-alb/alb-03-review.png)
+![Review Target Group](/images/4-Workshop/ALB/B2_Review_Info.png)
 
 ---
 
@@ -53,7 +53,7 @@ Review all settings — confirm the target is the correct EC2 instance on port 8
 
 Click **Create target group**. Wait for the target group status to show **Active** and the target health to eventually show **Healthy** after the ALB starts sending health checks.
 
-![Create Target Group](/images/workshop/7-alb/alb-04-create-tg.png)
+![Create Target Group](/images/4-Workshop/ALB/B4_Create_TargetGroup.png)
 
 ---
 
@@ -63,7 +63,7 @@ Click **Create target group**. Wait for the target group status to show **Active
 
 In the left sidebar click **Load Balancers**. Click **Create load balancer**. On the selection page, choose **Application Load Balancer**.
 
-![Choose Application Load Balancer](/images/workshop/7-alb/alb-05-choose-alb.png)
+![Choose Application Load Balancer](/images/4-Workshop/ALB/B5_Choose_ALB.png)
 
 ---
 
@@ -81,7 +81,7 @@ Fill in the ALB configuration:
 The ALB must be placed in the **public subnet**. It receives traffic from the internet and forwards it internally to the EC2 instance in the private subnet.
 {{% /notice %}}
 
-![ALB Basic Settings](/images/workshop/7-alb/alb-06-settings.png)
+![ALB Basic Settings](/images/4-Workshop/ALB/B6_Configure_ALB.png)
 
 ---
 
@@ -97,7 +97,7 @@ The ALB must be placed in the **public subnet**. It receives traffic from the in
 
 Review all settings and click **Create load balancer**.
 
-![ALB Listener and Final Settings](/images/workshop/7-alb/alb-07-final-settings.png)
+![ALB Listener and Final Settings](/images/4-Workshop/ALB/B7_Follow_Configuration.png)
 
 After creation, note the **DNS name** of the ALB (e.g. `voice-summarizer-alb-xxxxxxxx.ap-southeast-1.elb.amazonaws.com`). This is the base URL your frontend will call for all API requests.
 
@@ -105,6 +105,5 @@ After creation, note the **DNS name** of the ALB (e.g. `voice-summarizer-alb-xxx
 
 {{% notice tip %}}
 ✅ The ALB is deployed in the public subnet and forwards traffic to the EC2 instance. 
-
 Copy the **ALB DNS name** — you will need it when configuring the frontend API client in the Amplify deployment step.
 {{% /notice %}}
