@@ -16,7 +16,7 @@ This guide provides a complete, step-by-step procedure for deploying the Voice S
 
 1. [Workshop Overview](4.1-Workshop-overview/)
 2. [Prerequisites](4.2-Prerequisites/)
-3. [VPC & Networking](4.3-VPC/)
+3. [Networking](4.3-Networking/)
 4. [Storage Setup](4.4-Storage/)
 5. [Lambda Functions](4.5-Lambda/)
 6. [EC2 Setup](4.6-EC2/)
