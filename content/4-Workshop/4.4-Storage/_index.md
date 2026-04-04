@@ -1,16 +1,22 @@
 ---
-title : "Processing Setup"
+title : "Storage Setup"
 date: "2000-01-01"
 weight : 04
 chapter : false
 pre : " <b> 4.4. </b> "
 ---
 
-This Processing Setup phase establishes the core data pipeline for structuring raw logs and preparing them for queryable analysis. It mandates the deployment of three Kinesis Data Firehose streams for buffering and delivering CloudTrail and VPC logs to target S3 buckets. Concurrently, you will configure the AWS Glue Database and four Athena tables via DDL to make the structured data queryable. This pipeline relies on five ETL Lambda functions triggered by S3 Event Notifications to perform the necessary data transformation upon log arrival.
+In this section you will create the three S3 buckets and two DynamoDB tables that form the persistent data layer of the Voice Summarizer platform.
 
------
+| Resource | Name | Purpose |
+|---|---|---|
+| S3 Bucket | `one4allthing` (Audio + Transcript) | Stores raw audio uploads and AWS Transcribe output |
+| S3 Bucket | *(your choice)* (Vectors) | Stores vector embeddings and semantic index |
+| DynamoDB Table | `VoiceSummarizerHistory` | Per-recording processing status, progress, and conversation memory |
+| DynamoDB Table | `User` | User records provisioned on Cognito sign-up |
+
 #### Content
 
-- [Create Kinesis Data Firehose Delivery Streams](4.4.1-create-kinesis-data-firehose/)
-- [Create AWS Glue Database and Tables](4.4.2-create-aws-glue-database-and-tables/)
-- [Create Lambda Functions - ETL Processing](4.4.3-create-lambda-function-etl-processing/)
+- [S3 Audio Bucket](4.4.1-s3-audio-bucket/)
+- [S3 Vectors Bucket](4.4.2-s3-vectors-bucket/)
+- [DynamoDB Tables](4.4.3-dynamodb/)
