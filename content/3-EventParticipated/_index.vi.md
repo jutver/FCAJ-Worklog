@@ -29,7 +29,7 @@ pre: " <b> 3. </b> "
 ---
 
 ### [Event 3](3.3-Event3/)
-&emsp;**Tên sự kiện:** Future
+&emsp;**Tên sự kiện:** AWS Kubernetes, Elixir, and Infrastructure as Code with Terraform
 
 &emsp;**Thời gian:** 09:00, ngày 4 tháng 4 năm 2026
 

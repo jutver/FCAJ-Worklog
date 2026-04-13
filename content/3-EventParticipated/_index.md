@@ -29,7 +29,7 @@ pre: " <b> 3. </b> "
 ---
 
 ### [Event 3](3.3-Event3/)  
-&emsp;**Event Name:** Future
+&emsp;**Event Name:** AWS Kubernetes, Elixir, and Infrastructure as Code with Terraform
 
 &emsp;**Date & Time:** 09:00, April 4, 2026  
 
