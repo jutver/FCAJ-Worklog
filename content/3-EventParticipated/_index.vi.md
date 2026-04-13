@@ -33,18 +33,18 @@ pre: " <b> 3. </b> "
 
 &emsp;**Thời gian:** 09:00, ngày 4 tháng 4 năm 2026
 
-&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Trieu, phường Sài Gòn, Quận 1, TP. Hồ Chí Minh
+&emsp;**Địa điểm:** Hall A, Trường Đại học FPT, 7 Đường D1, Long Thạnh Mỹ, Tăng Nhơn Phú, Hồ Chí Minh
 
 &emsp;**Vai trò:** Người tham dự
 
 ---
 
 ### [Event 4](3.4-Event4/)
-&emsp;**Tên sự kiện:** Future
+&emsp;**Tên sự kiện:** AWS Networking, IAM, and Security
 
-&emsp;**Thời gian:** Unknown
+&emsp;**Thời gian:** 09:00, ngày 11 tháng 4 năm 2026
 
-&emsp;**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Trieu, phường Sài Gòn, Quận 1, TP. Hồ Chí Minh
+&emsp;**Địa điểm:** Hall A, Trường Đại học FPT, 7 Đường D1, Long Thạnh Mỹ, Tăng Nhơn Phú, Hồ Chí Minh
 
 &emsp;**Vai trò:** Người tham dự
 
