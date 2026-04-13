@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# Summary Report: “AI Agents, Prompt Engineering, and AIoT Projects on AWS”
+# “AI Agents, Prompt Engineering, and AIoT Projects on AWS”
 
 ### Event Objectives
 

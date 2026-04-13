@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# Summary Report: “AWS RE:INVENT 2025 RECAP (VIETNAM)”
+# “AWS RE:INVENT 2025 RECAP (VIETNAM)”
 
 ### Event Details
 - **Date & Time:** January 27, 2026

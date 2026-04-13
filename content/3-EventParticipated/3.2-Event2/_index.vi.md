@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# Báo cáo Tổng kết: “AI Agents, Prompt Engineering, và các Dự án AIoT trên AWS”
+# “AI Agents, Prompt Engineering, và các Dự án AIoT trên AWS”
 
 ### Mục tiêu Sự kiện
 
