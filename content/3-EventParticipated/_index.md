@@ -33,18 +33,18 @@ pre: " <b> 3. </b> "
 
 &emsp;**Date & Time:** 09:00, April 4, 2026  
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** Hall A, 5th Floor, FPT University, 7, D1 Street, Long Thanh My, Tan Nhon Phu, Ho Chi Minh City
 
 &emsp;**Role:** Attendee  
 
 ---
 
 ### [Event 4](3.4-Event4/)  
-&emsp;**Event Name:** Future  
+&emsp;**Event Name:** AWS Networking, IAM, and Security  
 
-&emsp;**Date & Time:** Unknown  
+&emsp;**Date & Time:** 09:00, April 11, 2026  
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** Hall A, 5th Floor, FPT University, 7, D1 Street, Long Thanh My, Tan Nhon Phu, Ho Chi Minh City
 
 &emsp;**Role:** Attendee  
 
